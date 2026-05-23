@@ -2,15 +2,15 @@
 
 ## 0.98a-RC8-kr-preview4
 
-- Fixed untranslated ship skin descriptions in the Codex.
-- Repaired corrupted Korean strings in ship system descriptions.
-- Added additional report, weapon metadata, hull, and industry text translations.
-- Synced the test mod folder with the distribution mod contents.
+- 코덱스 함선 스킨 설명이 영어로 남던 문제를 수정했습니다.
+- 일부 함선 시스템 설명에서 한글이 `???`로 깨지던 문제를 복구했습니다.
+- 보고서, 무기 메타데이터, 함선명, 전투기 역할 설명, 산업 설명의 미번역 항목을 추가 번역했습니다.
+- 테스트용 모드 폴더와 배포용 모드 폴더의 내용이 일치하도록 동기화했습니다.
 
 ## 0.98a-RC8-kr-preview3
 
-- Added installer-driven core JAR patching for hardcoded Korean strings.
-- Added core font/tips installation.
-- Added automatic `mod_info.json` game version sync during install.
-- Improved Codex ship skin description handling.
-- Updated weapon role tags to phonetic Korean labels.
+- 인스톨러 기반 core JAR 한글 문자열 패치 기능을 추가했습니다.
+- core 폰트와 tips 설치를 추가했습니다.
+- 설치 시 `mod_info.json`의 게임 버전을 자동 동기화하도록 했습니다.
+- 코덱스 함선 스킨 설명 처리 방식을 개선했습니다.
+- 무기 역할 태그를 음차형 한글 표기로 정리했습니다.

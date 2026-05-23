@@ -3,9 +3,9 @@
 	"skinHullId":"cerberus_d_pirates",
 	"hullName":"케르베로스 (P)",
 	"descriptionId":"cerberus",
-	"descriptionPrefix":"? ??? ?? ???? ?? ???? ????, ?? ??? ?? ????.",
+	"descriptionPrefix":"이 함선은 해적 승무원들에 의해 크게 개조되었고, 정비 상태는 좋지 않습니다.",
 	"tags":["pirate_bp"],
-	"tech":"??",
+	"tech":"해적",
 	#"baseValueMult":1.2,
 	"spriteName":"graphics/ships/cerberus/cerberus_pirates.png",
 	"removeWeaponSlots":[], 		# ids

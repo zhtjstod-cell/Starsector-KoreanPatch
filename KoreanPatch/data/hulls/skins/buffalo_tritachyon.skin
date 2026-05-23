@@ -3,9 +3,9 @@
 	"skinHullId":"buffalo_tritachyon",
 	"hullName":"버팔로 (TT)",
 	"descriptionId":"buffalo",  # optional
-	"descriptionPrefix":"? ???? ??-???? ?? ???????. ???? ?? ? ???? ??? ?????.",
+	"descriptionPrefix":"이 함선에는 트라이-태키온 표식이 적용되었습니다. 그 외의 시스템 개조는 표면적인 수준입니다.",
 	"tags":["rare_bp"],
-	"tech":"???-???",
+	"tech":"트라이-태키온",
 	"fleetPoints":5,
 	"spriteName":"graphics/ships/buffalo/buffalo_tritachyon.png",
 	"removeWeaponSlots":[], 		# ids

@@ -3,10 +3,10 @@
 	"skinHullId":"manticore_pirates",
 	"hullName":"만티코어 (P)",
 	"descriptionId":"manticore",
-	"descriptionPrefix":"? ??? ?? ???? ?? ???? ????, ?? ??? ?? ????.",
+	"descriptionPrefix":"이 함선은 해적 승무원들에 의해 크게 개조되었고, 정비 상태는 좋지 않습니다.",
 	#"tags":["pirate_bp"],
 	"tags":["rare_bp"],
-	"tech":"??",
+	"tech":"해적",
 	"spriteName":"graphics/ships/manticore/manticore_pirate.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file

@@ -3,9 +3,9 @@
 	"skinHullId":"kite_pirates",
 	"hullName":"카이트 (P)",
 	"descriptionId":"kite",  # optional
-	"descriptionPrefix":"? ??? ?? ???? ?? ???? ????, ?? ??? ?? ????.",
+	"descriptionPrefix":"이 함선은 해적 승무원들에 의해 크게 개조되었고, 정비 상태는 좋지 않습니다.",
 	"tags":["pirate_bp"],
-	"tech":"??",
+	"tech":"해적",
 	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_pirates.png",
 	"removeHints":[CIVILIAN],
 	"addHints":[],	

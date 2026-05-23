@@ -3,9 +3,9 @@
 	"skinHullId":"enforcer_d_pirates",
 	"hullName":"인포서 (P)",
 	"descriptionId":"enforcer",
-	"descriptionPrefix":"? ??? ?? ???? ?? ???? ????, ?? ??? ?? ????.",
+	"descriptionPrefix":"이 함선은 해적 승무원들에 의해 크게 개조되었고, 정비 상태는 좋지 않습니다.",
 	"tags":["pirate_bp"],
-	"tech":"??",
+	"tech":"해적",
 	"spriteName":"graphics/ships/enforcer/enforcer_pirates.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file

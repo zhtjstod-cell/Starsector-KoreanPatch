@@ -4,9 +4,9 @@
 	"hullName":"울프 (H)",
 	"incompatibleWithBaseHull":false, # for the autofit dialog
 	"descriptionId":"wolf",
-	"descriptionPrefix":"? ???? ??? ???? ??????. ???? ?? ? ???? ??? ?????.",
+	"descriptionPrefix":"이 함선에는 헤게모니 표식이 적용되었습니다. 그 외의 시스템 개조는 표면적인 수준입니다.",
 	"tags":["heg_aux_bp"],
-	"tech":"????",
+	"tech":"헤게모니",
 	"spriteName":"graphics/ships/wolf/wolf_hegemony.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file

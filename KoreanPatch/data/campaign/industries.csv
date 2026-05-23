@@ -11,13 +11,13 @@ lightindustry,경공업,45,90,,8,,,"lightindustry, industry, rural",,graphics/ic
 heavyindustry,중공업,100,120,,12,,orbitalworks,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/heavy_industry.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"중장비, 보급품, 무기 생산을 위한 중앙화된 제조 기반시설입니다.",1600,HIGH
 orbitalworks,궤도 공장,60,150,,12,heavyindustry,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/icons/industry/orbital_works.png,com.fs.starfarer.api.impl.campaign.econ.impl.HeavyIndustry,"중장비, 보급품, 함선 생산을 위한 궤도 제조 기반시설입니다.",1700,HIGH
 fuelprod,연료 생산,90,120,,10,,,"fuelprod, industry, industrial",,graphics/icons/industry/fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,이 시설은 성간 문명의 생명줄인 우주선 연료를 생산합니다.,1800,HIGH
-#advfuelprod,Advanced Fuel Production,120,60,,5,fuelprod,,fuelprod,,graphics/icons/industry/advanced_fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,"A massive Domain-tech facility produces starship fuel, the life-blood of interstellar civilization.",1900,
+#advfuelprod,고급 연료 생산,120,60,,5,fuelprod,,fuelprod,,graphics/icons/industry/advanced_fuel_production.png,com.fs.starfarer.api.impl.campaign.econ.impl.FuelProduction,거대한 도메인 기술 시설이 성간 문명의 생명줄인 함선 연료를 생산합니다.,1900,
 commerce,상업,90,90,,3,,,"industry, urban",,graphics/icons/industry/commerce.png,com.fs.starfarer.api.impl.campaign.econ.impl.TradeCenter,"번창하는 독립 무역을 장려하는 규제, 보조금, 기반시설입니다.",1950,MEDIUM
 station_base,궤도 정거장,,,,,,,"station, parent_item, important, structure",station,graphics/icons/industry/station_category.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,$marketName 인근에서 아군 함대를 지원할 수 있는 우주 정거장입니다.,2000,
 orbitalstation,궤도 정거장 - 저기술,50,90,,3,,battlestation,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:station1_Standard,
-fleetName:Orbital Station,
+fleetName:궤도 정거장,
 }",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,중장갑과 중화력을 갖춘 저기술 우주 정거장입니다.,2010,
 battlestation,전투 정거장 - 저기술,100,120,,4,orbitalstation,starfortress,"station, battlestation, unraidable, structure","{
 radius:65,
@@ -27,12 +27,12 @@ fleetName:Battlestation,
 starfortress,스타 포트리스 - 저기술,200,180,,5,battlestation,,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:station3_Standard,
-fleetName:Star Fortress
+fleetName:궤도 정거장?
 }",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,멀론급 방어 드론과 광범위한 지뢰밭을 갖춘 강화 전투 정거장입니다.,2030,
 orbitalstation_mid,궤도 정거장 - 중기술,50,90,,3,,battlestation_mid,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:station1_midline_Standard,
-fleetName:Orbital Station,
+fleetName:궤도 정거장,
 }",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"한쪽에 중화력, 빠른 축회전을 갖춘 중기술 우주 정거장입니다.",2040,
 battlestation_mid,전투 정거장 - 중기술,100,120,,4,orbitalstation_mid,starfortress_mid,"station, battlestation, unraidable, structure","{
 radius:65,
@@ -42,12 +42,12 @@ fleetName:Battlestation,
 starfortress_mid,스타 포트리스 - 중기술,200,180,,5,battlestation_mid,,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:station3_midline_Standard,
-fleetName:Star Fortress
+fleetName:궤도 정거장?
 }",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,라블린급 방어 드론과 광범위한 지뢰밭을 갖춘 강화 전투 정거장입니다.,2060,
 orbitalstation_high,궤도 정거장 - 고기술,50,90,,3,,battlestation_high,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:station1_hightech_Standard,
-fleetName:Orbital Station,
+fleetName:궤도 정거장,
 }",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"중형 회전 방어막, 전투기 편대, 중화력을 갖춘 고기술 우주 정거장입니다.",2070,
 battlestation_high,전투 정거장 - 고기술,100,120,,4,orbitalstation_high,starfortress_high,"station, battlestation, unraidable, structure","{
 radius:65,
@@ -57,7 +57,7 @@ fleetName:Battlestation,
 starfortress_high,스타 포트리스 - 고기술,200,180,,5,battlestation_high,,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:station3_hightech_Standard,
-fleetName:Star Fortress
+fleetName:궤도 정거장?
 }",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,가고일급 방어 드론과 장거리 지뢰 기술을 갖춘 강화 전투 정거장입니다.,2090,
 grounddefenses,지상 방어,30,60,,2,,heavybatteries,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/ground_defenses.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,"소형 은폐 무기 설치물들의 분산·반자율 네트워크로, 폭격을 극도로 위험하게 만듭니다.",2200,
 heavybatteries,중포대,60,90,,3,grounddefenses,,"grounddefenses, unraidable, tactical_bombardment, structure",,graphics/icons/industry/heavy_batteries.png,com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses,장갑 지하 포대가 소형 은폐 무기 네트워크를 보완합니다.,2300,

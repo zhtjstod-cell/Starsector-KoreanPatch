@@ -4,9 +4,9 @@
 	"hullName":"하운드 (LC)",
 	"descriptionId":"hound",
 	"spriteName":"graphics/ships/hound/hound_luddic_church.png",
-	"descriptionPrefix":"? ???? ?? ?? ???? ??????. ???? ?? ? ???? ??? ?????.",
+	"descriptionPrefix":"이 함선에는 루딕 교회 표식이 적용되었습니다. 그 외의 시스템 개조는 표면적인 수준입니다.",
 	"tags":["LC_bp"],
-	"tech":"?? ??",
+	"tech":"루딕 교회",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids

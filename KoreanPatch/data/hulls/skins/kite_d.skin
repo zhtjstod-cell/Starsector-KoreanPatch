@@ -1,0 +1,19 @@
+{
+	"baseHullId":"kite",
+	"skinHullId":"kite_d",
+	"hullName":"카이트 (D)",
+	"descriptionId":"kite",  # optional
+	"descriptionPrefix":"???? ???? ???? ??? ??? ?? ???? ?? ???? ???. ?? ??? ?? ???? ?? ?? ?? ???? ?? \"D\"? ????.",
+	"restoreToBaseHull":true,
+	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_d.png",
+	"removeHints":[CIVILIAN],
+	"baseValueMult":.65,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines","comp_armor","faulty_grid"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

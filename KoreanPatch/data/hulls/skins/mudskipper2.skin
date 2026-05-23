@@ -1,0 +1,32 @@
+{
+	"baseHullId":"mudskipper",
+	"skinHullId":"mudskipper2",
+	"hullName":"머드스키퍼 Mk.II",
+	"hullDesignation":"Frigate",
+	"fleetPoints":4,
+	"ordnancePoints":30,
+	#"systemId":"",
+	"descriptionPrefix":"?? ??? ?? ? ???? ???? ?? ???? ?? ???? ??????. ? ???? ???? ? ???? ?? ? ????? ?? ??? ?? ??????, ???? ???? ???? ??? ?? ???? ?? ???? ????.",
+	"tags":["pirate_bp"],
+	"tech":"??",
+	"spriteName":"graphics/ships/mudskipper/mudskipper2.png",
+	"baseValueMult":2,
+	"removeHints":[CIVILIAN],
+	#"addHints":[],
+	"removeWeaponSlots":["WS 003"], 	# ids
+	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
+	#"removeBuiltInMods":["civgrade"], 	# hullmod ids
+	"removeBuiltInWeapons":[], 			# weapon slot ids
+	"builtInMods":["ill_advised", "comp_storage"],
+	"builtInWeapons":{
+    },
+    "weaponSlotChanges":{
+		"WS 002":{
+			#"angle": 0,
+            #"arc": 210,
+            "mount": "HARDPOINT",
+            "size": "LARGE",
+            "type": "BALLISTIC"
+		}	
+	},
+}

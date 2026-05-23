@@ -1,0 +1,19 @@
+{
+	"baseHullId":"buffalo",
+	"skinHullId":"buffalo_hegemony",
+	"hullName":"버팔로 (A)",
+	"baseValueMult":1.5,
+	#"ordnancePoints":28,
+	"descriptionId":"buffalo",  # optional
+	"descriptionPrefix":"? ???? ??? ?? ?? ??? ?? ???, ??? ? ???? ?? ? ??? ?? ??? ?? ???? ????? ?? ?? ???? ??????.",
+	"tags":["heg_aux_bp"],
+	"tech":"????",
+	"spriteName":"graphics/ships/buffalo/buffalo_hegemony.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	#"removeBuiltInMods":["civgrade"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["militarized_subsystems"],
+	"builtInWeapons":{
+    },
+}

@@ -1,0 +1,33 @@
+{
+	"military":{
+		"name":"군사",
+		#"color":"buttonShortcut",
+		#"putFirst":true,
+		"sort":10,
+	},
+	"trade":{
+		"name":"무역",
+		#"color":"buttonShortcut",
+		#"putFirst":true,
+		"sort":20,
+	},
+	"underworld":{
+		"name":"지하세계(underworld)",
+		#"color":"buttonShortcut",
+		#"putFirst":true,
+		"sort":30,
+	},
+	"science":{
+		"name":"과학",
+		"putFirst":true,
+		"sort":40,
+	},
+	"pather":{
+		"name":"패터(Pather)",
+		"putFirst":true,
+		"sort":50,
+	},
+}
+
+
+

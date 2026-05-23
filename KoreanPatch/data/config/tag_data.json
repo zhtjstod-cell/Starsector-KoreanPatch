@@ -1,0 +1,63 @@
+{
+	# only applies to intel tags
+
+	"New":{
+		"name":"새로운",
+		"color":"buttonShortcut",
+		"width":150,
+		"putFirst":true,
+		"sort":10,
+	},
+	"Important":{
+		"name":"중요",
+		#"color":"buttonShortcut",
+		"width":150,
+		"putFirst":true,
+		"sort":20,
+	},
+	"Story":{
+		"name":"스토리",
+		"width":150,
+		"putFirst":true,
+		"sort":29,
+	},
+	"Major events":{
+		"name":"주요 사건",
+		#"color":"buttonShortcut",
+		"width":150,
+		"putFirst":true,
+		"sort":30,
+	},
+	"Colony threats":{
+		"name":"식민지 위협",
+		#"color":[200,0,0,255],
+		#"color":"textEnemyColor",
+		"width":150,
+		"putFirst":true,
+		"sort":34,
+	},
+	"Accepted":{
+		"name":"수락됨",
+		#"color":"textFriendColor",
+		"width":151,
+		"putFirst":true,
+		"sort":37.5,
+	},
+	"Exploration":{
+		"name":"탐험",
+		"width":150,
+		"putFirst":true,
+		"sort":45,
+	},
+	"Fleet log":{
+		"name":"함대 일지",
+		"width":150,
+		"putFirst":true,
+		"sort":45,
+	},
+	"Luddic shrines":{
+		"name":"루딕 성지",
+		"color":[75,200,0,255],
+	},
+
+}

@@ -1,0 +1,7 @@
+*.zip
+*.bak
+*.bak_*
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db

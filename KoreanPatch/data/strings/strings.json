@@ -1,0 +1,389 @@
+{
+
+	"fleetInteractionDialog":{
+		# Available tokens:
+		#
+		# $faction  faction of other fleet ("Hegemony", "Tri-Tachyon", "Pirate", etc)
+		# $fleetName name of other fleet ("Scout", "Security Detachment", etc)
+		# $firstName first name of other fleet's commander
+		# $lastName last name of other fleet's commander
+		# $fleetOrShip "fleet", "ship" if only one ship in fleet, "fighter wing" if only one fighter wing (and nothing else)
+		# $repairedShipList list of names of the ships that were successfully repaired after being disabled
+		# $crewLost Approximate number of crew lost during the last engagement, i.e. "4", "around 100", or "no". 
+		# $marinesLost Approximate number of marines lost during the last engagement, i.e. "4", "around 100", or "no". 
+		# $crewRecovered Number of crew recovered after winning the entire encounter. 
+		# $marinesRecovered Number of marines recovered after winning the entire encounter.
+		# $numLifeSigns Approximate number of crew + marines on ship about to be boarded. Can also be "no".
+		# $boardingTaskForceShips List of names of the ships in the boarding task force.
+		# $boardingCrewLost
+		# $boardingEnemyCrewLost
+		# $boardingMarinesLost
+		# $boardingEnemyMarinesLost
+		# $boardableShipName "ISS Something or Other"
+		# $boardingTaskForceShipName "ISS Something or Other", name of the first ship in the boarding task force
+		# $creditsLooted
+		# $flagship On flagship selection
+		# $crashMothballList
+		# battles with allies
+		# Tokens:
+		# $alliedFactionAndTheirAllies "Hegemony forces and their allies"
+		# $enemyFactionAndTheirAllies "Hegemony forces and their allies"
+		# $yourForcesWereOrYourSideWas	 
+	
+		"initialWithStationVsLargeFleet":"$faction $fleetOrShip 은 정거장의 지원을 유지하기 위해 기동하여 함대가 교전을 해제할 수 있도록 합니다. 그러나 당신의 군대는 후퇴하면서 피해를 입을 가능성이 높습니다.",
+		"initialAggressive":"$faction $fleetOrShip 은 당신이 쉽게 이탈하는 것을 방지하기 위해 기동합니다.",
+		"initialDisengage":"$faction $fleetOrShip 이 교전을 이탈하려고 합니다.",
+		"initialCareful":"$faction $fleetOrShip 은 조심스럽게 거리를 유지하면서 적대 행위가 발생할 경우 교전을 중단할 준비를 유지합니다.",
+		"initialNeutral":"$faction $fleetOrShip 은 중립 자세를 취합니다.",
+		"initialHoldVsStrongerEnemy":"$faction $fleetOrShip 은 우월한 세력에 직면했음에도 불구하고 싸울 준비가 되어 있는 것처럼 보이지만 문제를 제기할 가능성은 없습니다.",
+		"initialAggressiveSide":"$enemyFactionAndTheirAllies 의 작전으로 쉽게 이탈하는 것을 방지할 수 있습니다.",
+		"initialDisengageSide":"$enemyFactionAndTheirAllies 가 이탈을 시도하고 있습니다.",
+		"initialCarefulSide":"$enemyFactionAndTheirAllies 는 신중하게 거리를 유지하고 적대 행위가 발생할 경우 교전을 중단할 준비를 유지합니다.",
+		"initialNeutralSide":"$enemyFactionAndTheirAllies 는 중립 자세를 취합니다.",
+		"initialHoldVsStrongerEnemySide":"$enemyFactionAndTheirAllies 는 우월한 세력에 직면했음에도 불구하고 싸울 준비가 되어 있는 것처럼 보이지만 문제를 제기할 가능성은 없습니다.",
+	
+		"initialKnows":"$playerFleetOrShip 의 응답기가 켜져 있기 때문에 귀하의 신원을 인식합니다.",
+		"initialKnowsTOff":"$playerFleetOrShip 의 응답기가 꺼져 있음에도 불구하고 최근에 귀하를 본 것으로 인해 귀하의 신원을 알고 있다는 표시입니다.",
+		"initialKnowsUnique":"$playerFleetOrShip 의 응답기가 꺼져 있음에도 불구하고 귀하의 신원을 인식하는 것으로 보입니다. 아마도 귀하의 함대에 주목할만한 함선이 있기 때문일 것입니다.",
+		"initialKnowsUniqueSide":"$playerFleetOrShip 의 응답기가 꺼져 있음에도 불구하고 귀하의 신원을 인식하는 것으로 보입니다. 아마도 귀하의 함대에 주목할만한 함선이 있기 때문일 것입니다.",
+		"initialDoesntKnow":"귀하의 신원이 확실하지 않은 것 같습니다. 모든 적대 행위는 귀하의 평판에 미치는 영향이 줄어듭니다.",
+		"initialKnowsSide":"그들은 $playerFleetOrShip 의 응답기가 켜져 있기 때문에 귀하의 신원을 알고 있습니다.",
+		"initialKnowsTOffSide":"최근에 당신을 본 탓에 $playerFleetOrShip 의 응답기가 꺼져 있음에도 불구하고 그들은 당신의 신원을 알고 있는 것 같습니다.",
+		"initialDoesntKnowSide":"그들은 당신의 신원을 확신하지 못하는 것 같습니다. 모든 적대 행위는 귀하의 평판에 미치는 영향이 줄어듭니다.",
+		
+		"battleDefeat":"$yourForcesWereOrYourSideWas 가 마지막 교전에서 패배했습니다.",
+		"battleTotalDefeat":"$yourForcesWereOrYourSideWas 가 마지막 교전에서 완전히 패배했습니다.",
+		"battleVictory":"$yourForcesWereOrYourSideWas 가 마지막 교전에서 승리했습니다.",
+		"battleTotalVictory":"$yourForcesWereOrYourSideWas 가 마지막 교전에서 완전한 승리를 거둘 수 있었습니다.",
+		"battleFleetLost":"마지막 교전에서 모든 함선이 파괴되었습니다.",
+		
+		"friendlyFireRepLoss":"전투가 진행되는 동안 심각한 아군 화재 사고가 발생했습니다.",
+		
+		"pursuitAutoresolve":"당신의 함대는 명령에 따라 추격에 참여합니다.",
+		"pursuitVictoryNoLosses":"후퇴하는 적군은 함선을 잃지 않고 교전을 해제할 수 있었습니다.",
+		"pursuitVictoryLosses":"후퇴하는 적군은 교전을 해제할 수 있었지만 손실을 입지는 않았습니다.",
+		"pursuitTotalVictory":"적군 함선은 탈출하지 못했습니다.",
+		"pursuitDefeat":"적군은 상황을 역전시켜 아군에게 패배를 안겨줄 수 있었습니다.",
+		"pursuitTotalDefeat":"놀라운 반전으로 후퇴하는 적군은 역전되어 압도적인 승리를 거둘 수 있었습니다.",
+		
+		"escapeDefeat":"$yourForcesWereOrYourSideWas 가 적과의 교전을 해제할 수 있었습니다.",
+		"escapeTotalDefeat":"당신 측의 함선 중 어느 것도 탈출하지 못했습니다.",
+		"escapeVictory":"$yourForcesWereOrYourSideWas 는 추격하는 적의 상황을 역전시켜 패배를 안겨줄 수 있었습니다.",
+		"escapeTotalVictory":"$yourForcesWereOrYourSideWas 는 추격하는 적의 상황을 역전시켜 완전히 분쇄할 수 있었습니다.",
+		
+		"engagementMutualDestruction":"양측의 함선은 모두 파쇄된 금속으로 남아 있습니다.",
+		"mutualDestructionRepairs":"하지만 모든 것이 소멸한 것은 아닙니다. 당신은 $boardableShipName 의 지휘를 맡아 수리 팀을 조직하고 기본 추진력과 생존 지원을 되찾기 위해 집중합니다. 당신의 노력이 성공적이며, 몇 시간 후에 출항할 수 있습니다.",
+		
+		"enemyHarass":"적군은 철수하는 당신의 함선을 괴롭히며 큰 혼란을 일으킵니다. 하지만 궁극적으로는 전투를 강요하지는 않습니다..",
+		"enemyUnableToPursue":"적 함선은 추격을 할 수 없어 당신의 힘들이 더 이상 사건을 발생시키지 않고 철수할 수 있게 합니다.",
+		"enemyDecidesNotToPursue":"적 함선은 추격을 시도하지 않아 당신의 힘이 더 이상 사건을 일으키지 않고 철수할 수 있게 합니다.",
+		"enemyPursuit":"적 함대가 당신의 세력을 추격합니다.",
+		
+		"playerRecovery":"$yourForcesWereOrYourSideWas 은(는) 전투력을 일부 회복했으며 전투 공간을 통제하고 전투가 제한되었습니다.",
+		"enemyRecovery":"적군 세력도 전투력을 일부 회복했으며 전투 공간을 통제하고 전투가 제한되었습니다.",
+		"bothRecovery":"양측 모두 제한적이고 혼돈스러운 전투 후 전투 준비를 일부 회복할 수 있었습니다.",
+		
+		"enemyCleanDisengage":"당신의 세력이 추격할 수 없어서 적 함대는 깨끗하게 철수할 수 있습니다.",
+		"enemyCleanDisengageSide":"당신의 편의 세력이 추격을 할 수 없어서 적 함대가 깨끗하게 철수할 수 있습니다.",
+		
+		# in playerUnableToPursue, the player can still harass the escaping ships, so it's not a "clean" disengagement.
+		"playerUnableToPursue":"적 함대는 전투를 강요할 수 없는 채로 철수할 것으로 보입니다.",
+		"playerUnableToPursueNoReadyShips":"당신의 함선 중 어느 것도 추격을 할 만한 상태가 아닙니다.",
+		"playerUnableToPursueStoodDown":"당신의 함선들은 전투 준비력 회복에 집중하고 있어 추격을 할 수 없습니다.",
+		
+		"playerDisruptedEnemy":"지난 전투에서 철수했음에도 불구하고, 당신의 세력은 적을 방해했으며 추격받지 않고 철수할 수 있습니다.",
+		"enemyDisruptedPlayer":"지난 전투에서 승리를 거두었지만, 당신의 세력은 상당한 손실을 입어 적이 철수할 때 추격할 수 없습니다.",
+		"enemyDisruptedPlayerSide":"지난 전투에서 승리를 거두었지만, 당신의 편의 세력은 충분한 손실을 입어 적이 철수할 때 추격할 수 없습니다.",
+		"cleanDisengageOpportunity":"전술적 승리 후, 당신의 세력은 적과의 교전을 회피하고 깔끔하게 철수할 수 있는 기회를 얻었습니다.",
+		
+		#"playerTooLargeToDisengage":"당신의 함대는 상대 세력이 이미 혼돈에 빠진 경우를 제외하고는 효과적으로 철수할 수 없을 만큼 큽니다.",
+		#"playerTooLargeCanFightToDisengage":"상대방과 교전하고 그들의 함선을 파괴하거나 비활성화하거나 철수하도록 강요하는 것이 가능하다면 당신의 함대는 추격을 받지 않고 철수할 수 있습니다.",
+		#"highlightTooLarge":"너무 커서 분리할 수 없다",
+		#"highlightCanFight":"추격을 받지 않고 철수",
+		"playerTooLargeToDisengage":"당신의 함대는 너무 크기 때문에 쉽게 철수할 수 없습니다. 적과 교전하고 그들의 함선을 파괴하거나 비활성화하거나 철수하도록 강요하는 것이 가능하다면 당신의 함대는 추격을 받지 않고 철수할 수 있습니다.",
+		"highlightTooLarge":"너무 크기 때문에 철수하기 어렵습니다.",
+		"highlightDisengage":"추격받지 않고 철수",
+		
+		
+		"highlghtDisruptedEnemy":"추격받지 않고 철수합니다.",
+		"highlightDisruptedPlayer":"추격을 할 수 없습니다.",
+		"highlightCleanDisengage":"적으로부터 깨끗하게 철수합니다.",
+		
+		
+		"playerLetGo":"당신의 함선은 추격을 하지 않아 적 세력이 추가적인 사건 없이 철수할 수 있도록 합니다.",
+		"playerHarass":"적군 함선이 철수할 때 당신의 세력이 괴롭힘으로써 많은 혼란을 야기하지만, 궁극적으로는 전투를 강요하지 않습니다.",
+		
+		
+		"engageForce":"당신은 적 지휘관이 선택할 수 있는 옵션이 점차적으로 줄어드는 일련의 기동을 명령합니다.",
+		"engagePursuit":"적 함대는 철수를 시도하지만 싸우지 않고는 도망칠 수 없을 것입니다.",
+		"engageMutual":"적 함대가 전투에 가입하기 위해 움직입니다.",
+		"pursue":"당신의 세력은 적을 추격하여 전투를 강요하기에 충분히 가까이 다가갑니다.",
+		
+		"postBattleAggressive":"$fleetOrShip $faction 는 또 다른 전투를 위해 기동합니다.",
+		"postBattleDisengage":"$fleetOrShip $faction 이 출수하기 위해 기동합니다.",
+		"postBattleNeutral":"$fleetOrShip $faction 는 중립적인 자세를 취합니다.",
+		"postBattleHoldVsStrongerEnemy":"$fleetOrShip $faction 는 우세한 세력에 직면했음에도 불구하고 싸울 준비가 되어 있지만, 문제를 강요할 가능성은 낮습니다",
+		
+		"postBattleAggressiveSide":"$enemyFactionAndTheirAllies 는 또 다른 전투를 위해 기동합니다",
+		"postBattleDisengageSide":"$enemyFactionAndTheirAllies 는 철수하기 위해 기동합니다",
+		"postBattleNeutralSide":"$enemyFactionAndTheirAllies 는 중립적인 자세를 취합니다.",
+		"postBattleHoldVsStrongerEnemySide":"$enemyFactionAndTheirAllies 는 우세한 세력에 직면했음에도 불구하고 싸울 준비가 되어 있지만, 문제를 강요할 가능성은 낮습니다.",
+		
+		"cutComm":"통신 링크를 차단하고 가능한 전술적 옵션을 고려합니다.",
+	
+		"repairReport":"선원은 $repairedShipList 에서 기본 시스템을 복구할 수 있었습니다..",
+		"casualtyReport":"최초 보고서에 따르면 최근 교전 중 $crewLost 명의 선원과 $marinesLost 명의 해병이 사망했습니다.",
+		"recoveryReport":"전투 후, 구명정과 파손되지 않은 구획에서 $crewRecovered 명의 선원과 $marinesRecovered 명의 해병이 구조되었습니다.",
+
+		#
+		# BOARDING ENEMY SHIP
+		#
+		"enemyShipBoardable":"당신의 세력이 해체 작업을 시작하기 위해 준비를 하고 있는 중에, 갑자기 적 함선의 시스템이 다시 가동됩니다. 빠른 스캔으로 $numLifeSigns 명의 생명 신호를 감지합니다.",
+		"engageBoardableDisabled":"당신의 세력이 적 함선을 공격하고, 몇 발의 정확한 사격으로 신속하게 중화시킵니다.",
+		"engageBoardableDestroyed":"당신의 세력이 적 함선을 공격합니다. 손상된 선체에 몇 발의 사격이 명중한 직후 거대한 폭발이 발생하여 화면이 일시적으로 꺼집니다. 시각이 다시 활성화되면 시야에 보이는 것은 천천히 확장되는 파편 구름뿐입니다.",
+		"engageBoardableEscaped":"당신의 세력이 적 함선을 공격하려고 이동합니다. 그러나 적 함선의 선원들이 마지막 순간에 드라이브 필드를 다시 가동하고 도망칩니다.",
+		"letBoardableGo":"당신의 세력은 철수하고 적 함선이 도망가도록 놔둡니다.",
+		"boardingTaskForceSelectedOneShip":"명령을 받자마자, $boardingTaskForceShips 가 적군 함선에 접근하도록 움직입니다.",
+		"boardingTaskForceSelectedMultiple":"지시를 받은후, $boardingTaskForceShips 가 적군 함선에 접근하기 위해 움직입니다.",
+		
+		"boardingApproachDock":"적 선체에 도킹 하여, 돌격팀은 신속하게 에어락을 무력화하고 선체의 약화된 부분에 임시 접근 지점을 폭파합니다",
+		"boardingApproachLaunch":"돌격팀들은 약 1킬로미터 밖에서 발사되어 개인 추진 시스템을 사용하여 최종 접근을 제동하기 위해 파도를 타고 선체에 접근합니다. 방어자들은 팀들이 선체 안으로 충분히 진입할 수 있을 때까지 아무런 처벌 없이 상륙군에게 사격할 기회를 가집니다.",
+		
+		"boardingOutcomeSelfDestruct":"돌격팀이 적 선체 내부의 저항을 이기기 시작하자, 그것이 자폭합니다. 탑승 당사자 대다수가 폭발로 인해 사망합니다.",
+		"boardingOutcomeShipLost":"$boardingTaskForceShipName 가 파괴되었습니다.", 
+		"boardingOutcomeShipDamaged":"$boardingTaskForceShipName 가 심각한 피해를 입었습니다.",
+		"boardingOutcomeTaskForceLost":"적함과 도킹된 돌격팀 전체가 파괴됩니다.", 
+		"boardingOutcomeTaskForceLostPartial":"적함이 폭발했을 때 정박한 함선 중 일부는 파괴되고 나머지는 심각한 피해를 입습니다.", 
+		"boardingOutcomeTaskForceDamaged":"다행히도, 돌격팀의 함선 중에는 하나도 파괴되지 않았습니다.",
+		 
+		"boardingOutcomeSuccess":"모든 조직된 저항을 극복하고 모든 구획을 청소한 후, 돌격팀의 지휘관이 적 선체가 안전하게 확보되었고 prize crew를 받을 준비가 되어 있다고 보고합니다.",
+		"boardingOutcomeTooDamaged":"모든 조직적인 저항을 극복하고 모든 격실을 소탕한 후 탑승자 사령관은 확보한 적함을 보고합니다. 안타깝게도 전투로 인한 부수적인 피해로 핵심 함정 시스템이 수리 불능 상태에 빠졌습니다.",
+		"boardingOutcomeEscape":"고착된 적군은 엔진 수리를 마치고 도망칠 수 있을 만큼 충분히 오랫동안 돌격팀을 저지할 수 있습니다.",
+		"boardingCleanEscapeMissedLaunch":"마지막 순간, 적함은 추진력을 되찾고 대부분의 공격자를 피할 수 있을 정도로 궤도를 변경할 수 있으며, 탈출할 수 있는 충분한 시간을 확보합니다. 복구 작업 후, $boardingCrewLost crew 와 $boardingMarinesLost marine(s) 는 행방불명 상태입니다.",
+		
+		"boardingNoMarines":"탑승 작전을 수행할 해병대원이 없습니다. 다소 도움이 되지 않지만, 자동화된 시스템은 탑승 작전이 성공할 가능성이 전혀 없을 것이라는 예상과 맞물려 있습니다.",
+		"boardingProjection":"당신은 $marines 해병대를 사용할 수 있습니다. gamma-level AI에 의해 실행되는 시뮬레이션에 따르면, 탑승 작업은 $boardingSuccessChance 의 성공확률이 있을 것입니다.",
+		
+		"boardingCasualtyReport":"전투중 $boardingMarinesLost 해병이 사망한 것으로 확인되었습니다.",  
+		
+		#
+		# BEING BOARDED (limited to ship being engaged and shot down or not, at the moment)
+		#
+		"friendlyShipBoardable":"하나의 손상된 함선의 선원들이 충분한 수리를 실시하여 중요한 시스템이 다시 가동되었습니다. 만약 추진력을 회복할 수 있다면, 그 함선은 당신의 함대에 다시 합류할 수 있을 것입니다.",
+		"engageFriendlyBoardableDisabled":"유감스럽게도, 적군 함선들이 접근하여 몇 발의 정확한 사격을 발휘하여 그런 가능성을 제거했습니다.",
+		"engageFriendlyBoardableDestroyed":"유감스럽게도, 추가 수리가 완료되기 전에 적군 함선이 접근하여 공격을 가했습니다. 어느 틈에 한 발의 탄이 반응로 억제장치를 파괴한 것으로 보입니다. 함선이 폭발하며, 천천히 확대되는 파편 구역이 남습니다.",
+		"engageFriendlyBoardableEscaped":"적군이 접근하기 전에 엔진 수리가 완료되어 함선이 도주하여 당신의 함대에 다시 합류합니다.",
+		"engageFriendlyBoardableLetGo":"적군은 항복하고 함선이 수리를 완료하고 어렵게 항해하여 당신의 함대에 다시 합류할 수 있도록 합니다.",
+		
+		"lastFriendlyShipRepairs":"당신은 $boardableShipName 의 지휘를 맡아 신속히 수리 팀을 조직합니다. 추진력을 회복할 수 있다면, 당신은 탈출할 수 있을 것입니다.",
+		"lastFriendlyBoardableDisabled":"유감스럽게도, 적군 함선들이 접근하여 몇 발의 정확한 사격을 발휘하여 그런 가능성을 제거했습니다.",
+		"lastFriendlyBoardableDestroyed":"유감스럽게도, 추가 수리가 완료되기 전에 적군 함선이 접근하여 공격을 가했습니다. 어느 틈에 한 발의 탄이 반응로 억제장치를 파괴한 것으로 보입니다. 함선이 폭발하며, 천천히 확대되는 파편 구역이 남습니다.",
+		"lastFriendlyBoardableEscaped":"적군이 접근하기 전에 엔진 수리가 완료되어 탈출에 성공했습니다!",
+		"lastFriendlyBoardableLetGo":"적군은 항복하고 당신의 함선이 수리를 완료하고 어렵게 항해하여 멀쩡히 튕겨나가도록 합니다.",
+
+		"finalOutcomeNoShipsLeft":"마지막으로 기억하는 것은 절망적인 함선에서 튀어나가는 탈출 캡슐에서의 급격한 가속입니다.",
+		
+		#
+		# OTHER
+		#
+		"creditsLootedReport":"파괴된 잔해에서 여전히 활성화된 CPU 코어에서 $creditsLooted 크레딧을 회수할 수 있는 해체 선원입니다.",
+		"selectedFlagship":"다가오는 전투를 위해 $flagship 에게 지휘권을 이양합니다.",
+		"noSalvageReport":"획득할 수 있는 해체 자원이 없습니다.",
+		"noSalvageReportPlayerDidNothing":"당신의 $playerFleetOrShip 는 근처의 활동 기여가 제한적이기 때문에 해체 작업에 참여하지 않습니다.",
+		"salvageReportPlayer":"당신의 $playerFleetOrShip 는 만남 동안의 기여로 인해 해체 작업에 참여할 수 있습니다.",
+		
+		#
+		# CRASH MOTHBALLING
+		#
+		"crashMothballSelectedOneShip":"당신은 $crashMothballList 에게 전투 시스템을 모두 비활성화하여 전투 중 장애 발생 위험을 피하도록 명령합니다. 함선의 선원들은 엔진을 최대한 원활하게 유지하기 위해 모든 가능한 자원을 집중합니다.",
+		"crashMothballSelectedMultiple":"당신은 $crashMothballList 에게 전투 시스템을 모두 비활성화하여 전투 중 장애 발생 위험을 피하도록 명령했습니다. 함선의 선원들은 가능한 모든 자원을 엔진이 최대한 원활하게 작동하도록 유지하기 위해 투입하고 있습니다.",
+		"tooltipCrashMothball":"일부 함선은 전투 준비도가 낮아 전투 중 장애를 겪을 수 있습니다. \n\n그들의 전투 시스템을 비활성화하여 장애를 피하고 함선이 최고 속도로 탈출할 수 있도록 합니다.",
+		"tooltipCrashMothballUnavailable":"모든 함선이 전투 준비가 완료되어 있으며 장애를 겪을 위험이 없습니다.",
+		
+		#
+		# TOOLTIPS
+		#
+		"tooltipPursue":"이탈하는 세력이 탈출을 시도하는 전투를 강제합니다.",
+		"tooltipPursueAutoresolve":"당신의 다른 지휘자에게 추적을 지휘하라고 명령합니다. 당신의 배에 위험을 주지 않지만, 당신이 직접 추적을 지휘하는 것보다 효과가 떨어질 수 있습니다.",
+		"tooltipPursueLostLast":"당신의 군대는 지난 교전에서 패배하여 추격할 수 없습니다.",
+		"tooltipPursueStoodDown":"당신의 부대는 마지막 교전 후에 물러났고 추격할 수 없습니다.",
+		"tooltipPursueSeriousLosses":"당신의 부대는 지난 교전에서 심각한 손실을 입었고 추격할 수 없습니다.",
+		"tooltipPursueTooSlow":"적 함대가 너무 빨라서 병력이 따라잡을 수 없습니다.",
+		
+		"tooltipNoReadyShips":"당신의 함선들은 전투 준비가 되어있지 않습니다.",
+		"tooltipNoPersonnel":"사용 가능한 해병대가 없습니다.",
+		
+		"tooltipHarassRetreat":"전투에 투입된 것처럼 모든 해제 함선의 전투 태세를 감소시킵니다.\n\n또한 적군의 괴롭힘 후에 당신의 함대는 재정비하는 데 시간이 필요하므로 어느 정도 시간이 걸립니다.",
+		"tooltipHarassRetreatUnavailable":"퇴각하거나 전투 준비가 된 함선이 없어 퇴각하는 병력을 괴롭힐 수 없습니다.",
+		
+		"tooltipLetThemGoNoPenalty":"다른 함대가 평화롭게 떠날 수 있게 해주세요. \n\n당신의 함대는 조우 후 재편성할 필요가 없으며 속도를 늦추지 않습니다.",
+		"tooltipLetThemGo":"다른 함대가 평화롭게 떠날 수 있게 해주세요. \n\n당신의 함대는 조우 후 재편성할 필요가 없으며 속도를 늦추지 않습니다.",
+		"tooltipEngage":"적함대를 공격합니다. \n\n후퇴하기 전에 충분한 피해를 입히면 추격당하지 않고 이탈할 수 있습니다.",
+		"tooltipCleanDisengage":"적함대에 의해 괴롭힘을 당할 위험 없이 전투를 종료합니다. \n\n 적이 전투 공간을 장악하고 있기 때문에 인양 작업을 수행할 수 없습니다. \n\n만약 당신의 함대는 어떠한 적대적인 행동도 취하지 않았고, 당신이 반대파와 함께 서 있는 것에 어떠한 손상도 주지 않을 것입니다.",
+		"tooltipHarrassableDisengage":"추격의 위험 없이 전투를 종료합니다. 적함대는 여전히 당신의 퇴각을 위험에 빠뜨릴 수 있습니다. \n\n 적이 전투 공간을 통제하고 있기 때문에 어떤 인양 작업도 수행할 수 없습니다. \n\n만약 당신의 함대는 어떠한 적대적인 행동도 취하지 않았고, 당신이 반대파와 함께 서 있는 것에 어떠한 손상도 주지 않을 것입니다.",
+		"tootipAttemptToDisengage":"전투에서 후퇴를 시도합니다. 상대 함대가 추격하여 전투를 강요하거나, 당신을 놓아줄 수도 있습니다.\n\n 적이 전투 공간을 통제하고 있기 때문에 어떤 인양 작업도 수행할 수 없습니다.\n\n만약 당신의 함대는 어떠한 적대적인 행동도 취하지 않았고, 어떠한 추격하는 배도 손상시키지 않으면서, 당신이 적 세력과 함께 서 있는 데에 최소한의 피해를 줄 것입니다.",
+		
+		"tooltipBoardingAction":"탑승을 조직합니다. 해병이 필요하고 심각한 인원 손실을 초래할 가능성이 있습니다.",
+		"tooltipEngageBoardable":"수리를 완료할 기회가 생기기 전에 함선을 공격합니다.\n\n배가 완전히 파괴될 가능성이 있습니다.",
+		"tooltipLetShipGo":"적함이 긴급 수리를 마치고 철수하도록 합니다.",
+		"tooltipHardDockBoarding":"함선이 탑승 작전 부대에 배정되어 적군 함선에 접근하여 도킹합니다.\n\n작전 부대에게 최상의 전투 가능성과 높은 성공률을 제공합니다.\n\n만약 만약 탑승 중인 함선이 자폭하면, 탑승 작전에 참여한 함선들은 심각한 피해를 입을 수 있고 파괴될 수 있습니다.",
+		"tooltipLaunchBoarding":"탑승 작전 부대는 안전 거리를 유지하며 개인 추진 시스템이 장착된 돌격팀을 출격시킵니다.\n\n수비군에게 상당한 전투 우위와 더 높은 탈출 가능성을 제공하지만, 탑승 작전 부대의 함선들을 위험에 빠뜨리지 않습니다.",
+		"tooltipAboutBoardingAction":"탑승 작전 부대를 소환하고 승선조치를 취소하여 적함이 철수할 수 있도록 합니다.", 
+		"tooltipSelectorMarines":"돌격대에 할당할 해병대 수를 선택합니다.",
+		"tooltipSelectorCrew":"돌격대에 할당할 선원 수를 선택합니다.",
+		"tooltipSelectFlagship":"다가오는 전투에서 직접 제어할 함선을 선택하십시오.",
+		
+		"ongoingBattleEncounter":"진행 중인 전투에 직면합니다.",
+		"ongoingBattleShareIFF":"$alliedFactionAndTheirAllies 는 IFF 코드를 전송합니다. 이 코드를 사용하면 전투에 참여할 수 있습니다.",
+		"ongoingBattleNoJoin":"어느 쪽도 IFF 코드를 공유하거나 함께 싸울 만큼 당신을 신뢰하지 않으며, 당신은 어느 쪽에서도 전투에 참여할 수 없습니다.",
+		"ongoingBattleNoJoinTransponder":"양쪽 모두 IFF 코드를 공유할 만큼 신뢰하지 않지만 트랜스폰더를 켜고 돌아오면 변경될 가능성이 높습니다.",
+		#"playerOutFirstEscapeWin":"당신의 군대는 적의 군대를 격퇴할 수 있는 모든 동맹국보다 먼저 전투 공간을 떠납니다.",
+		#"playerOutFirstEscapeLoss":"당신의 군대는 곧 탈출할 수 있는 모든 동맹군보다 먼저 전투 공간을 떠납니다.",
+		#"playerOutFirstEngageWin":"당신의 군대는 교전에서 이길 수 있는 동맹군보다 먼저 전장에서 물러납니다.",
+		#"playerOutFirstEngageLoss":"당신의 군대는 당신의 모든 동맹국들보다 먼저 전투 공간에서 후퇴하고, 당신의 동맹국들이 곧 패배하더라도 상대적으로 안전하게 떠날 수 있는 기회를 갖게 됩니다.",
+		#"playerOutFirstPursuitWin":"당신의 병력은 여전히 후퇴하는 적 병력을 추격할 수 있는 동맹군보다 먼저 전장에서 후퇴합니다.",
+		#"playerOutFirstPursuitLoss":"당신의 군대는 당신의 동맹군보다 먼저 전장에서 후퇴하고, 적군은 얼마 지나지 않아 역전하여 그들을 물리칠 수 있습니다.",
+		"playerOutFirstEscapeWin":"당신의 군대는 여전히 적의 군대를 격퇴할 수 있는 모든 동맹국보다 먼저 전투 공간을 떠납니다.",
+		"playerOutFirstEscapeLoss":"당신의 군대는 곧 탈출할 수 있는 모든 동맹군보다 먼저 전투 공간을 떠납니다.",
+		"playerOutFirstEngageWin":"당신의 군대는 여전히 교전에서 승리할 수 있는 동맹군보다 먼저 전장에서 물러납니다.",
+		"playerOutFirstEngageLoss":"당신의 군대는 모든 동맹국보다 먼저 전투 공간에서 후퇴하고 상대적으로 안전한 곳에서 떠날 기회를 갖게 됩니다.",
+		"playerOutFirstPursuitWin":"당신의 병력은 동맹군보다 먼저 전장에서 퇴각합니다.",
+		"playerOutFirstPursuitLoss":"당신의 병력은 동맹군보다 먼저 전장에서 퇴각합니다.",
+		"ongoingBattleEngage":"$alliedFactionAndTheirAllies 는 $enemyFactionAndTheirAllies 와 교전하기위해 이동하고있습니다.",
+		"ongoingBattleStation":"$alliedFactionAndTheirAllies 는 $enemyFactionAndTheirAllies 에 맞서 자신들의 입장을 고수하고 있습니다",
+		"ongoingBattlePursue":"$alliedFactionAndTheirAllies 는 $enemyFactionAndTheirAllies 을 추격하고 있습니다.",
+		"ongoingBattleHarass":"$alliedFactionAndTheirAllies 는 후퇴하는 $enemyFactionAndTheirAllies 를 괴롭혀 많은 혼란을 야기하지만 궁극적으로 전투를 강요하지는 않습니다.",
+		"ongoingBattleLetGo":"$alliedFactionAndTheirAllies 는 $enemyFactionAndTheirAllies 를 더이상의 사고 없이 놓아주었습니다.",
+		"ongoingBattleDisengage":"$alliedFactionAndTheirAllies 은 $enemyFactionAndTheirAllies 로 부터 이탈하려고 시도하고 있습니다.",
+		#"ongoingBattleJoinEnemyWillFlee":"당신의 군대가 합류하고, 이제 밀려난 상태의 $enemyFactionAndTheirAllies 가 철수를 시도합니다.",
+		#"ongoingBattleJoinAlliesWillFight":"당신의 군대가 합류하고, 이 상황의 변화에 고무되어, $alliedFactionAndTheirAllies 는 적과 교전하기 위해 돌아섭니다.",
+		#"ongoingBattleJoinTurnTables":"당신의 군대가 합류하고, 균형을 급격히 바꿉니다. $alliedFactionAndTheirAllies 는 $enemyFactionAndTheirAllies 와 전투를 시작하며, 그들 또한 철수를 시도합니다.",
+	},
+
+
+	"jumpPointInteractionDialog":{
+		# Available tokens:
+		#
+		# $fleetOrShip "fleet", "ship" if only one ship in fleet, "fighter wing" if only one fighter wing (and nothing else)
+		
+		"approach":"당신의 $fleetOrShip 가 점프 지점에 접근합니다.",
+		"starAnchor":"별의 중력장이 생성한 웜홀을 통해 들어가는 것은 정말 어려운 항법 기술입니다. 가장 숙련된 사람들만이 시도를 고려할 것이며, 그것도 결과는 예측할 수 없습니다.",
+		"starAnchorUnusable":"당신은 이 점프 지점을 사용할 수 없습니다.",
+		"noFuel":"당신의 $fleetOrShip 는 연료가 남아있지 않아 점프할 수 없습니다.",
+		"noExits":"이 점프 지점은 기능적인 출구가 없는 것으로 보이며, 사실상 사용할 수 없습니다.",
+	},
+	
+	
+	"planetInteractionDialog":{
+		# Available tokens:
+		#
+		# $fleetOrShip "fleet", "ship" if only one ship in fleet, "fighter wing" if only one fighter wing (and nothing else)
+		# $planetName
+		"approach":"당신의 $fleetOrShip 가 $planetName 에 접근합니다.",
+	},
+	
+
+	"campaignHelp":{
+		"chmNewgame_text":"스타섹터 캠페인에 오신 것을 환영합니다! \n\n당신은 F5는 퀵세이브, F9는 큌로드. \n\nTry 당신보다 훨씬 큰 함대나 더 큰 함선을 가진 함대를 피하려고 노력하고, 개발 중인 게임이기 때문에 가끔 버그가 발생할 수 있다는 것을 기억해 주세요..\n\n행운을 빕니다!",
+		"chmNewgame_dismiss":"무시하다",
+		
+		"chmNewgameIron_text":"스타섹터 캠페인에 오신 것을 환영합니다!\n\n철인 모드로 플레이하기 때문에 게임을 종료할 때만 저장할 수 있으며, 현재 게임을 먼저 종료(및 저장)하지 않고는 다른 게임을 불러올 수 없습니다..\n\n당신의 함대보다 훨씬 큰 함대나 더 큰 함선을 보유한 함대와 대립하는 것을 피하려고 노력해주세요. 또한 작업 중이라 가끔 버그가 발생할 수 있음을 기억해 주세요.\n\n행운을 빕니다!",
+		"chmNewgameIron_dismiss":"무시하다",
+		
+		"chmDeployCritCR_text":"배치로 표시된 일부 함선은 전투 태세가 위험할 정도로 낮습니다(20% 미만)..\n\n이러한 함선의 시스템을 전투 전력 수준으로 가동하는 것은 심각한 고장을 유발할 가능성이 높습니다. 이는 전투 동안 일부 무기와 엔진을 비활성화시키고, 배틀 기간 동안 추가적인 심각한 고장을 유발하며 함선의 완전한 파괴를 포함한 위험을 가져옵니다. \n\n이러한 위험을 감수하는 것은 일반적으로 최후의 수단입니다.",
+		"chmDeployCritCR_action":"배치 진행",
+		"chmDeployCritCR_dismiss":"재고한다",
+		
+		"chmDeployLowCR_text":"배치로 표시된 함선 중 일부는 전투 준비가 부족합니다(40% 미만).\n\n그들의 무기 시스템과 엔진은 오작동을 겪고 지속적인 사용 중에 일시적으로 비활성화 될 가능성이 있습니다.",
+		"chmDeployLowCR_action":"배치 진행",
+		"chmDeployLowCR_dismiss":"재고한다",
+		
+		"chmDeployCostsCR_text":"각 전투가 시작될 때마다 배치할 함선을 선택하고 전투가 진행될 때마다 지원군을 배치할 수 있습니다.\n\n함선을 배치하면 전투 태세가 일정한 양만큼 감소합니다. 또한 함선은 최대 준비 시간이 지나면 전투 태세를 점차 상실하기 시작할 것입니다.\n\n전투 태세를 회복하는 데 시간이 걸리고 귀중한 보급품을 소비합니다.",
+		"chmDeployCostsCR_dismiss":"무시하다",
+		
+		"chmWeaponGroups_text":"함선의 로드아웃은 변경했지만 무기 그룹은 조정하지 않았습니다.\n\n전투를 위해 함선을 배치할 때 무기는 자동으로 그룹에 할당되지만 수동으로 할당하는 것이 좋습니다.",
+		"chmWeaponGroups_action":"무기 그룹 조정",
+		"chmWeaponGroups_dismiss":"괜찮아요",
+		
+		#"chmOpenTrade_text":"화물/거래 화면에서 다음과 같이 할 수 있습니다:\n\n- 한 묶음을 선택하려면 왼쪽 클릭\n- 한 번에 하나씩 묶음에서 하나를 선택하려면 쉬프트 클릭\n- 쉬프트 클릭 후 길게 드래그해서 특정 수량을 선택합니다\n- 전체 묶음을 집어들지 않고 전송하려면 컨트롤 클릭\n- Alt 키를 누른 채로 마우스를 움직여 여러 묶음을 빠르게 전송할 수 있습니다.",
+		"chmOpenTrade_text":"화물/거래 화면에서 다음과 같이 할 수 있습니다:\n\n- 한 묶음을 선택하려면 왼쪽 클릭\n- 한 번에 하나씩 묶음에서 하나를 선택하려면 쉬프트 클릭\n- 쉬프트 클릭 후 길게 드래그해서 특정 수량을 선택합니다\n- 전체 묶음을 집어들지 않고 전송하려면 컨트롤 클릭",
+		"chmOpenTrade_dismiss":"무시하다",
+		
+		"chmHyperStorm_text":"여러분의 함대가 초우주 폭풍을 맞게 되었습니다! 여러분의 함대 중 한 척이 피해를 입었고, 전투 준비가 끝났습니다.\n\n폭풍은 여러분의 함대를 항로에서 벗어나게 할 수 있지만 \"긴급 연소\" 는 여러분의 함대가 보다 쉽게 항로를 다시 잡을 수 있도록 해주고 폭풍을 이겨낼 수 있도록 해줍니다.",
+		"chmHyperStorm_dismiss":"무시하다",
+	
+		"chmShipPurchase_text":"축하해합니다, 방금 새 배를 샀어요!\n\n무기나 선체 모드가 설치되어 있지 않으므로 장비를 갖추는 것이 좋습니다.\n\n또한 승무원이 충분한지 확인해야 합니다.",
+		"chmShipPurchase_action":"수리 화면 열기",
+		"chmShipPurchase_dismiss":"무시하다",
+		
+		"chmWingPurchase_text":"축하합니다, 방금 새 전투기 편대를 구입하셨습니다!\n\n전투기 편대의 전투 태세는 대체 전투기 케이스 수를 나타냅니다., 이는 함대에 비행 갑판이 있는 함선이 있는 경우에만 사용할 수 있습니다.\n\n새로운 전투기들은 전투에서 입은 손실을 대체하기 위해 근처 비행 갑판에서 이륙할 것입니다. 함대가 적절한 수리 시설(즉, 비행갑판)을 갖춘 함선을 보유하고 있는 한, 전투 태세가 0으로 감소하더라도 전투기 편대를 완전히 잃을 수는 없습니다.",
+		"chmWingPurchase_dismiss":"무시하다",
+		
+		"chmRefitOnStation_text":"우주 정거장에 정박한 상태에서 함선을 재장착할 때는 화물창에 무기를 장착하고 정거장에서 구입할 수 있는 무기를 장착할 수 있습니다.\n\n함선의 적재물에 대한 변경사항 취소 (또는 구매한 무기를 장착 해제)는 사용한 크레딧을 환불해 주지만, 수리 화면에서 벗어나지 않은 경우에만 환불해 줍니다.",
+		"chmRefitOnStation_dismiss":"무시하다",
+		
+		"chmLootOverCapacity_text":"경고: 당신은 함대가 운반할 수 있는 용량보다 더 많은 해체물을 가져가고 있습니다.\n\n이로 인해 일일 보급품 소비가 크게 증가하고 이동 속도가 감소합니다.\n\n해체물을 줄이거나 초과분을 매각하기 위해 근처 정거장으로 가는 것이 좋습니다.",
+		"chmLootOverCapacity_dismiss":"무시하다",
+		
+		"chmOverCargoCapacity_text":"귀하의 함대는 수용 능력보다 더 많은 화물을 운송하고 있습니다.\n\n이로 인해 일일 보급품 소비가 크게 증가하고 이동 속도가 감소합니다.\n\n일부 화물을 지금 폐기하거나 초과분을 매각할 수 있도록 빨리 정거장으로 가는 것이 좋습니다. 승무원/화물 화면에서 화물을 폐기할 수 있습니다.",
+		"chmOverCargoCapacity_action":"선원/카고 화면 열기",
+		"chmOverCargoCapacity_dismiss":"무시하다",
+		
+		"chmOverFuelCapacity_text":"귀하의 함대는 수용 능력보다 더 많은 연료를 운반하고 있습니다.\n\n이로 인해 일일 보급품 소비가 크게 증가하고 이동 속도가 감소합니다.\n\n일부 연료를 지금 폐기하거나 초과분을 매각할 수 있도록 빨리 정거장으로 가는 것이 좋습니다. 승무원/화물 화면에서 연료를 폐기할 수 있습니다.",
+		"chmOverFuelCapacity_action":"선원/카고 화면 열기",
+		"chmOverFuelCapacity_dismiss":"무시하다",
+		
+		"chmOverCrewCapacity_text":"귀하의 함대는 수용 가능한 인원보다 더 많은 인원을 수송하고 있습니다.\n\n이로 인해 일일 보급품 소비가 크게 증가하고 이동 속도가 감소합니다.\n\n가까운 시장으로 가는 것이 좋습니다. 그러면 거기에서 내려줄 수 있습니다.",
+		"chmOverCrewCapacity_action":"선원/카고 화면 열기",
+		"chmOverCrewCapacity_dismiss":"무시하다",
+		
+		"chmLowFuel_text":"귀하의 함대에 연료가 부족합니다.\n\n초공간에서 연료가 부족하면 가장 가까운 항성계 쪽으로 표류하게 되고, 그곳에서 더 많은 연료를 얻을 수 없다면 좌초될 수도 있습니다.",
+		"chmLowFuel_dismiss":"무시하다",
+		
+		"chmLowSupplies_text":"귀하의 함대에 보급품이 부족합니다.\n\n보급품이 부족하면 모든 수리가 중단되고 시간이 지남에 따라 함선이 전투 태세를 잃기 시작합니다.공급품이 없는 상태에서 2일 이상 지나면 함대는 경미한 사고(일부 화물 손실 등)에서 중대한 사고(함선 손실 등)의 심각한 위험이 있습니다.\n\n가능한 한 빨리 더 많은 보급품을 확보하는 것이 좋습니다.\n\n공급 소비를 줄이기 위해 진행 중인 함선 수리를 중단할 수 있습니다. 더 많은 보급품을 얻는 마지막 수단은 당신의 함선 중 하나를 파괴하는 것입니다.\n\n그렇게 하는 명령은 함대 화면에서 사용할 수 있습니다.",
+		"chmLowSupplies_action":"함대 화면 열기",
+		"chmLowSupplies_dismiss":"무시하다",
+		
+		"chmNotEnoughCrew_text":"귀하의 함대에는 모든 함선을 완전히 승선시킬 인력이 충분하지 않습니다.\n\n이는 해당 함선들의 전투 태세와 전투 태세 회복이 감소하는 결과를 가져옵니다.\n\n함대 화면에서 일부 선박을 퇴역시켜 사용 가능한 승무원을 특정 선박에 집중시킬 수 있습니다. 가능한 한 빨리 가까운 우주 정거장에서 더 많은 승무원을 고용하는 것이 좋습니다.",
+		"chmNotEnoughCrew_action":"함대 화면 열기",
+		"chmNotEnoughCrew_dismiss":"무시하다",
+		
+		"chmSomeLowCR_text":"함대의 일부 함선은 전투 태세가 부족합니다(40% 미만).\n\n무기 시스템과 엔진은 오작동을 겪고 지속적인 사용 중에 일시적으로 비활성화되어 전투 능력이 떨어질 가능성이 있습니다.\n\n이 배들은 전투에 사용하기 전에 회복될 수 있도록 하는 것이 좋습니다. 시간이 지나면 배들은 전투 태세를 회복하고, 아군 기지들은 신속하게 전투 태세를 회복하고, 수리를 효과적으로 수행할 뿐만 아니라 필요하다면 추가 선원을 고용할 수도 있습니다.\n\n함대 화면에서 함선의 전투 준비 수준을 확인할 수 있습니다.",
+		"chmSomeLowCR_action":"함대 화면 열기",
+		"chmSomeLowCR_dismiss":"무시하다",
+		
+		"chmSomeCritCR_text":"함대의 일부 함선은 전투 태세가 위험할 정도로 낮습니다(20% 미만).\n\n이러한 함선을 전투에 배치하면 심각한 오작동이 발생할 수 있습니다. 피해를 입히고 전투 기간 동안 일부 무기와 엔진을 비활성화하며 배치 기간 동안 더 심각한 오작동을 일으킬 수 있습니다.\n\n전투에 참여하기 전에 함선들을 회복시키는 것이 좋습니다. 함선은 시간이 지나면 전투 태세를 회복하고, 우호적인 기지는 신속하게 전투 준비를 할 수 있는 방법을 제공하고 수리를 효과적으로 수행할 뿐만 아니라 필요한 경우 추가 승무원을 고용합니다.\n\n함대 화면에서 선박의 전투 태세 수준을 확인할 수 있습니다.",
+		"chmSomeCritCR_action":"함대 화면 열기",
+		"chmSomeCritCR_dismiss":"무시하다",
+		
+		"chmAllCritCR_text":"함대의 모든 함선은 전투 준비 상태가 위험할 정도로 낮습니다(20% 미만).\n\n이러한 함선을 전투에 배치하면 심각한 오작동이 발생할 수 있습니다. 피해를 입히고 전투 기간 동안 일부 무기와 엔진을 비활성화하며 배치 기간 동안 더 심각한 오작동을 일으킬 수 있습니다.\n\n전투에 참여하기 전에 함대를 회복시키는 것이 좋습니다. 함선은 시간이 지나면 전투 태세를 회복하고, 우호적인 기지는 신속하게 전투 준비를 할 수 있는 방법을 제공하고 수리를 효과적으로 수행할 뿐만 아니라 필요한 경우 추가 승무원을 고용합니다.\n\n함대 화면에서 선박의 전투 태세 수준을 확인할 수 있습니다.",
+		"chmAllCritCR_action":"함대 화면 열기",
+		"chmAllCritCR_dismiss":"무시하다",
+		
+		"chmSupplyUseAfterBattle_text":"귀하의 함대의 보급품 소비가 방금 증가했습니다\n\n전투 태세를 회복하여 전투에 참여에 필요한 보급품은 소모되며, 전투 피해를 수리하는 것도 보급품이 필요합니다.\n\n보급품 사용을 줄이기 위해 선박의 수리 및 CR 복구를 함대 화면에서 중단할 수 있습니다.",
+		"chmSupplyUseAfterBattle_action":"함대 화면 열기",
+		"chmSupplyUseAfterBattle_dismiss":"무시하다",
+		
+		"chmRiskOfAccidents_text":"귀하의 함대에 있는 일부 함선은 0%의 전투 태세로 인해 사고를 당할 위험이 있습니다.\n\n사고는 함선을 손상시키거나 심지어 파괴할 수도 있습니다.\n\n가능한 한 빨리 전투 태세를 회복하거나 함선을 폐기하는 것이 좋습니다.",
+		"chmRiskOfAccidents_dismiss":"무시하다",
+		
+		"chmEnteredHyper_text":"함대가 초공간으로 진입했습니다!\n\n초공간을 여행하는 선박은 이동 거리에 비례하여 연료를 사용합니다. 연료가 부족한 함대는 가장 가까운 항성계를 향해 표류하여 그곳에 좌초될 수 있습니다.",
+		"chmEnteredHyper_dismiss":"무시하다",
+	
+		"chmRefitCRLoss_text":"우주에서 선박을 개조하면 일부 전투 태세를 잃게 됩니다.\n\n손실된 양은 변경된 범위에 따라 다르며 전투 태세 막대의 희미한 부분으로 표시됩니다.\n\n시장이나 정거장에서 개조하면 전투 태세가 감소하지 않습니다.",
+		"chmRefitCRLoss_dismiss":"무시하다",
+	},
+	
+	
+	
+		
+}
+
+
+
+
+
+
+
+
+

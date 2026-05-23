@@ -1,0 +1,18 @@
+{
+	"baseHullId":"hound",
+	"skinHullId":"hound_d",
+	"hullName":"하운드 (D)",
+	"descriptionId":"hound",
+	"descriptionPrefix":"???? ???? ???? ??? ??? ?? ???? ?? ???? ???. ?? ??? ?? ???? ?? ?? ?? ???? ?? \"D\"? ????.",
+	"restoreToBaseHull":true,
+	"baseValueMult":.65,
+	"spriteName":"graphics/ships/hound/hound_substandard.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

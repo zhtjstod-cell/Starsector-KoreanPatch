@@ -1,0 +1,20 @@
+{
+	"baseHullId":"kite",
+	"skinHullId":"kite_luddic_path",
+	"hullName":"카이트 (LP)",
+	"descriptionId":"kite",  # optional
+	"descriptionPrefix":"?? ?? ????? ? ???? ??? ???? ?????. ???? ?? ?? ???? ??? ???? ?? ??????.",
+	"tags":["LP_bp"],
+	"tech":"?? ??",
+	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_luddic_path.png",
+	"baseValueMult":0.75,
+	"removeHints":[CIVILIAN],
+	"addHints":[],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["safetyoverrides","ill_advised"],
+	"builtInWeapons":{
+    },
+}

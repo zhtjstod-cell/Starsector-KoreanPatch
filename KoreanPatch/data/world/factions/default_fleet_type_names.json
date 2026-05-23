@@ -1,0 +1,43 @@
+{
+	"trade":"상선 호송대",
+	"tradeLiner":"여객선 호송대",
+	"tradeSmuggler":"밀수선",
+	"smallTrader":"무역선",
+	
+	"patrolSmall":"고속 경계대",
+	"patrolMedium":"초계대",
+	"patrolLarge":"파견대",
+	
+	"leagueEnforcer":"집행대",
+	"leagueArmada":"대함대",
+	"supplyFleet":"보급 함대",
+	
+	"commerceRaiders":"통상 습격대",
+	"raider":"습격대",
+	
+	"sacredProtectors":"성역 수호대",
+	
+	"investigators":"조사관단",
+	
+	"inspectionFleet":"검열 함대",
+	"taskForce":"기동부대",
+	
+	"scavengerSmall":"탐사대",
+	"scavengerMedium":"인양대",
+	"scavengerLarge":"인양 함대",
+	
+	"foodReliefFleet":"구호 호송대",
+	
+	"shrinePilgrims":"루드 순례단",
+	"academyFleet":"아카데미 셔틀 서비스",
+	
+	"mercScout":"용병 정찰대",
+	"mercBountyHunter":"현상금 사냥꾼",
+	"mercPrivateer":"사략선",
+	"mercPatrol":"용병 초계대",
+	"mercArmada":"용병단",
+	
+	"battlestation":"전투 정거장",
+	
+	#"":"",
+}

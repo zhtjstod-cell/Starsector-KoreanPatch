@@ -1,0 +1,138 @@
+{
+	"ranks":{
+		"factionLeader":{"name":"최고사령관"},
+		"houseLeader":{"name":"가문장"},
+		"houseLeaderMale":{"name":"가문 가부장"},
+		"houseLeaderFemale":{"name":"가문 가모장"},
+	
+		"spaceSailor":{"name":"우주민"},
+		"spaceChief":{"name":"선임"},
+		"spaceEnsign":{"name":"소위"},
+		"spaceLieutenant":{"name":"중위"},
+		"spaceCommander":{"name":"사령관"},
+		"spaceCaptain":{"name":"함장"},
+		"spaceAdmiral":{"name":"제독"},
+		"spaceMarshal":{"name":"우주 원수"},
+		
+		"groundPrivate":{"name":"이병"},
+		"groundSergeant":{"name":"병장"},
+		"groundLieutenant":{"name":"중위"},
+		"groundCaptain":{"name":"대위"},
+		"groundMajor":{"name":"소령"},
+		"groundColonel":{"name":"대령"},
+		"groundGeneral":{"name":"장군"},
+		
+		"knightCaptain":{"name":"기사대장"},
+		
+		"chiefHighInspector":{"name":"수석 고등감찰관"},
+		"deputyStarMarshal":{"name":"부 우주보안관"},
+		"guardHighDeputyExecutor":{"name":"근위 고위 부집행관"},
+		
+		"citizen":{"name":"시민"},
+		"executive":{"name":"임원"},
+		"seniorExecutive":{"name":"고위 임원"},
+		"agent":{"name":"요원"},
+		"specialAgent":{"name":"특수요원"},
+		
+		"pilot":{"name":"조종사"},
+		"unknown":{name:"알 수 없음"},
+		
+		"brother":{name:"형제"},
+		"sister":{name:"자매"},
+		"father":{name:"신부"},
+		"mother":{name:"수녀원장"},
+		"elder":{name:"장로"},
+		"aristocrat":{name:"귀족"},
+		"terrorist":{name:"테러리스트"},
+		"freedomFighter":{name:"자유 투사"},
+		"clone":{name:"클론"},
+		
+	},
+	
+	"posts":{
+		"factionLeader":{"name":"최고사령관"},
+	
+		"patrolCommander":{"name":"초계대 지휘관"},
+		"fleetCommander":{"name":"함대 지휘관"},
+		
+		"baseCommander":{"name":"기지 지휘관"},
+		"stationCommander":{"name":"정거장 지휘관"},
+		"outpostCommander":{"name":"전초기지 지휘관"},
+		"portmaster":{"name":"항만장"},
+		
+		"intelligenceDirector":{"name":"정보국장"},
+		"guardLeader":{"name":"특수부대장"},
+		
+		"supplyOfficer":{"name":"보급관"},
+		"supplyManager":{"name":"보급 관리자"},
+		"medicalSupplier":{"name":"의료품 공급자"},
+		
+		"administrator":{"name":"행정관"},
+		"militaryAdministrator":{"name":"군정관"},
+		"freeAdmin":{"name":"프리랜서 행정관"},
+		
+		"guildMaster":{"name":"길드장"},
+		"communeLeader":{"name":"공동체 지도자"},
+		"executive":{"name":"임원"},
+		"seniorExecutive":{"name":"고위 임원"},
+		"minorCriminal":{"name":"잡범"},
+		"criminal":{"name":"범죄자"},
+		"spacer":{"name":"우주민"},
+		
+		"genericMilitary":{"name":"지휘관"},
+		"marineSquadLeader":{"name":"병장"},
+		
+		"trader":{"name":"무역상"},
+		"merchant":{"name":"상인"},
+		"investor":{"name":"투자자"},
+		"commodities_agent":{"name":"상품 중개인"},
+		"entrepreneur":{"name":"기업가"},
+		"nanoforge_engineer":{"name":"나노포지 기술자"},
+		
+		"shady":{"name":"수상한 인물"},
+		"gangster":{"name":"갱단원"},
+		"smuggler":{"name":"밀수업자"},
+		"fence":{"name":"장물아비"},
+		"armsDealer":{"name":"무기상"},
+		
+		
+		"citizen":{"name":"시민"},
+		"boss":{"name":"두목"},
+		"crewBoss":{"name":"작업반장"},
+		
+		"mercenary":{"name":"용병 장교"},
+		"officer":{"name":"장교"},
+		"officer_for_hire":{"name":"장교 (고용 가능)"}, 
+		
+		"investigator":{"name":"수석 조사관"},
+		"agent":{"name":"요원"},
+		"specialAgent":{"name":"특수요원"},
+		
+		"provost":{name:"학장"},
+		"academician":{name:"학자"},
+		
+		"securityChief":{name:"보안 책임자"},
+		"doctor":{name:"의사"},
+		"hacker":{name:"해커"},
+		"hermit":{name:"은둔자"},
+		"pensioner":{name:"연금 생활자"},
+		"activist":{name:"활동가"},
+		"scientist":{name:"과학자"},
+		"terrorist":{name:"테러리스트"},
+		"warlord":{name:"군벌"},
+		"unknown":{name:"알 수 없음"},
+		"aristocrat":{name:"귀족"},
+		
+		"curate":{name:"사제"},
+		"synodSubcurate":{name:"시노드 부사제"},
+		"subcurate":{name:"부사제"},
+		"archcurate":{name:"대사제"},
+		"heretic":{name:"이단자"},
+		"shrinePriest":{name:"성소 사제"},
+		"excubitorOrbis":{"name":"엑스쿠비토르 오르비스"},
+		"initiate":{"name":"입문자"},
+		"novice":{"name":"수련자"},
+		"pilgrim":{"name":"순례자"},
+		
+	},
+}

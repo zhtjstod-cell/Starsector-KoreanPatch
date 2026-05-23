@@ -1,0 +1,17 @@
+{
+	"baseHullId":"mercury",
+	"skinHullId":"mercury_d",
+	"hullName":"머큐리 (D)",
+	"descriptionId":"mercury",  # optional
+	"descriptionPrefix":"???? ???? ???? ??? ??? ?? ???? ?? ???? ???. ?? ??? ?? ???? ?? ?? ?? ???? ?? \"D\"? ????.",
+	"spriteName":"graphics/ships/mercury/mercury_substandard.png",
+	"baseValueMult":.65,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

@@ -1,0 +1,21 @@
+{
+	"id":"fighter_uplink",
+	"governingAptitude":"leadership",
+	"compressHullmods":false,
+	#"scope":"ALL_FIGHTERS",
+	"scope":CUSTOM,
+	"scopeStr":"모든 전투기",
+	"scope2":CUSTOM,
+	"scopeStr2":"기함을 포함하여 장교가 있는 함선에 효과 부여",	
+#	"effectGroups":[
+#		{
+#			"requiredSkillLevel":1,
+#			"effectBasedOnLevel":false,
+#			"effects":[
+#				{"type":"ALL_SHIPS_IN_FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.FighterUplink$Level1"},
+#				{"type":"ALL_FIGHTERS_IN_FLEET", "script":"com.fs.starfarer.api.impl.campaign.skills.FighterUplink$Level2"},
+#				{"type":"HULLMOD_UNLOCK", "hullmods":{"recovery_shuttles":1}},
+#			]
+#		},
+#	],
+}

@@ -1,0 +1,154 @@
+name,id,tags,planetary,decivRemove,script,desc,icon,order
+도시화된 정치체,urbanized_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.UrbanizedPolity,인구 밀도가 높고 다양한 도시 중심지입니다.,graphics/icons/markets/urbanized_polity.png,130
+산업 정치체,industrial_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.IndustrialPolity,번성하는 산업 중심지입니다. 지역 정부 정책이 산업 발전을 장려합니다.,graphics/icons/markets/urbanized_polity.png,130
+농촌 정치체,rural_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RuralPolity,농가와 폐쇄적인 마을로 이루어진 인구 희박 지역입니다. 외지인은 의심받습니다.,graphics/icons/markets/rural_polity.png,130
+대규모 난민,large_refugee_population,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.LargeRefugeePopulation,재난을 피해 도망쳐 온 절박한 난민들이 이곳에 정착했습니다. 난민들은 사회 밑바닥에서 생활합니다.,graphics/icons/markets/refugee_population.png,140
+볼턴 랍스터 양식장,volturnian_lobster_pens,"show_in_codex, codex_unlockable",TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,여러 구지구 종과 상상력이 결합해 탄생한 생물로 볼턴의 바다에서 자생합니다.,graphics/icons/markets/lobster_pens.png,137
+쾌락물 수요,vice_demand,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ViceDemand,이곳의 쾌락 상품 수요가 유난히 높습니다.,graphics/icons/markets/vice_demand.png,145
+조직 범죄,organized_crime,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.OrganizedCrime,범죄 조직이 마약과 적출 장기를 생산합니다. 중화기 수요를 높입니다.,graphics/icons/markets/organized_crime.png,148
+변경 지대,frontier,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Frontier,"도시 중심지에서 멀리 떨어진 지역으로, 생존과 자립이 최우선입니다.",graphics/icons/markets/frontier.png,130
+함선 해체소,shipbreaking_center,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShipbreakingCenter,"이 지역의 주요 함선 해체 거점으로, 폐선들이 이곳에서 해체됩니다.",graphics/icons/markets/shipbreaking.png,360
+무역 중심지,trade_center,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeCenter,이 지역의 주요 무역 거점입니다. 섹터 곳곳에서 상선이 모여듭니다.,graphics/icons/markets/trade_center.png,280
+문명 붕괴,decivilized,,,,com.fs.starfarer.api.impl.campaign.econ.Decivilized,안정된 정치 세력이 없습니다. 문명이 붕괴되었으며 현 인구는 사실상 원시 상태입니다.,graphics/icons/markets/decivilized.png,130
+문명 붕괴 하위 집단,decivilized_subpop,,,,com.fs.starfarer.api.impl.campaign.econ.DecivilizedSubpop,$market의 일부 지역에 문명이 복구되었지만 대부분은 여전히 혼란스럽습니다.,graphics/icons/markets/decivilized.png,130
+방치된 정거장,abandoned_station,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AbandonedStation,이 정거장은 방치되어 있습니다.,graphics/icons/markets/abandoned.png,130
+가내 공업,cottage_industry,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CottageIndustry,$Market에는 저기술 노동 집약적 경공업 기반이 상당히 형성되어 있습니다.,graphics/icons/markets/cottage_industry.png,230
+전초 기지,outpost,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Outpost,$Market은 엄격한 공식 지휘 체계를 갖춘 주둔지처럼 운영됩니다.,graphics/icons/markets/outpost.png,130
+러드파 다수,luddic_majority,"show_in_codex, codex_unlockable",,TRUE,com.fs.starfarer.api.impl.campaign.econ.LuddicMajority,,graphics/icons/markets/luddic_majority.png,142
+스텔스 지뢰밭,stealth_minefields,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.StealthMinefields,은폐된 지뢰 네트워크가 $market을 외부의 방해로부터 보호합니다. 안정도를 높입니다.,graphics/icons/markets/stealth_mines.png,510
+지역 수도,regional_capital,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RegionalCapital,"행정, 보안, 물류의 주요 거점입니다. 안정도를 높입니다.",graphics/icons/markets/capital.png,500
+자유 항구,free_market,show_in_codex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FreeMarket,현지 항만청이 화물 거래에 거의 규제를 두지 않습니다. 이민 통제도 느슨합니다.,graphics/icons/markets/free_port.png,141
+이민 제한,closed_immigration,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ClosedImmigration,공식적으로 $market으로의 이민은 허용되지 않습니다. 전반적인 인구 증가가 둔화됩니다.,graphics/icons/markets/vice_demand.png,142
+,,,,,,,,
+거주 불가능 행성,uninhabitable,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,"$market의 표면은 유기 생명체가 생존할 수 없으며, 농업은 불가능합니다.",graphics/icons/markets/uninhabitable_wide.png,10
+얼음 행성,ice,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldIce,$Market의 평균 기온은 물의 어는점보다 훨씬 낮습니다.,graphics/icons/markets/ice_world_wide.png,10
+사막 행성,desert,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldDesert,$Market은 사막 행성입니다. 건생식물 생태계가 호흡 가능한 대기를 유지합니다.,graphics/icons/markets/desert_world_wide.png,10
+건조 행성,arid,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldArid,$Market은 광대한 건조 평원과 황무지로 덮여 있습니다. 물이 부족하고 대규모 농업이 어렵습니다.,graphics/icons/markets/arid_world_wide.png,10
+수상 행성,water,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldWater,"$Market의 기후는 생명체에 우호적이지만, 농업은 주로 수산업에 한정됩니다.",graphics/icons/markets/water_world_wide.png,10
+정글 행성,jungle,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldJungle,$Market은 울창한 식생과 이국적인 생물로 가득한 습하고 따뜻한 정글 행성입니다.,graphics/icons/markets/jungle_world_wide.png,10
+지구형 행성,terran,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTerran,$Market은 섹터에서 구지구의 환경과 가장 유사하여 이상적인 거주 조건을 제공합니다.,graphics/icons/markets/terran_world_wide.png,10
+불모 한계 행성,barren_marginal,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldBarrenMarginal,"열악하고 용서 없는 환경으로, 방호복 없이는 간신히 생존할 수 있습니다.",graphics/icons/markets/barren_desert_wide.png,10
+황혼 행성,twilight,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTwilight,주성에 조석 고정된 $market은 낮이 연 길이인 테라포밍된 행성입니다.,graphics/icons/markets/twilight_terran_world.png,10
+툰드라 행성,tundra,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTundra,"테라포밍으로 $market에 지구형 생태계가 자리 잡았지만, 여전히 혹독하게 춥습니다.",graphics/icons/markets/tundra_terran_wide.png,10
+빙화산 행성,cryovolcanic,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,"극한의 추위로 얼어붙은 행성으로, 메탄 눈이 내리고 빙화산이 분출합니다.",graphics/icons/markets/cryo_world_wide.png,10
+,,,,,,,,
+반체제 인구,dissident,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Dissident,"$Market은 반체제 인사, 반란군, 자유 사상가, 예술가 등의 유배지입니다.",graphics/icons/markets/dissidents.png,139
+사령부,headquarters,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,$Market은 집권 세력의 군사 지휘 및 물류 운영의 중심지입니다. 군사력을 크게 높입니다.,graphics/icons/markets/headquarters.png,360
+수경 재배 단지,hydroponics_complex,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Hydroponics,"밀폐 생태계 농업 시설로, 궤도 또는 거주 불가능한 표면에서 농업을 가능하게 합니다.",graphics/icons/markets/hydroponics.png,120
+,,,,,,,,
+인구,population_1,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,이곳에는 수십 명만이 영구 거주합니다.,graphics/icons/markets/population01.png,20
+인구,population_2,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketName에는 불과 수백 명이 거주합니다.,graphics/icons/markets/population02.png,20
+인구,population_3,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,수천 명이 $marketName을 고향이라 부릅니다.,graphics/icons/markets/population03.png,20
+인구,population_4,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketName에는 수만 명이 거주합니다.,graphics/icons/markets/population04.png,20
+인구,population_5,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketName에는 수십만 명이 살고 있습니다.,graphics/icons/markets/population05.png,20
+인구,population_6,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketName의 인구는 수백만 명에 달합니다.,graphics/icons/markets/population06.png,20
+인구,population_7,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketName은 수천만 명의 세계입니다.,graphics/icons/markets/population07.png,20
+인구,population_8,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,$marketName은 섹터에서 몇 안 되는 수억 명 이상의 행성 중 하나입니다.,graphics/icons/markets/population08.png,20
+인구,population_9,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"위험한 은하 속 인류의 귀중한 안식처, $marketName은 수십억의 생명이 사는 곳입니다.",graphics/icons/markets/population09.png,20
+인구,population_10,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,"$marketName은 섹터의 지배적 인구 중심지로, 수백억 명이 사는 구지구의 경쟁자입니다.",graphics/icons/markets/population10.png,20
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+# event-related market conditions,,,,,,,,
+식량 부족,event_food_shortage,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FoodShortage,$market에 일시적인 식량 부족이 발생했습니다. - 안정도 $stabilityPenalty 감소 - 식량 가격 상승,graphics/icons/markets/food_shortage.png,1000
+최근 불안,recent_unrest,show_in_codex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RecentUnrest,$Market에서 최근 격동적인 사건이 발생해 안정도에 지속적인 영향을 미치고 있습니다.,graphics/icons/markets/recent_unrest.png,2000
+무역 혼란,event_trade_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeDisruption,$market을 오가는 무역 함대가 큰 피해를 입고 있습니다. 해적이나 전쟁이 원인일 가능성이 높습니다.,graphics/icons/markets/trade_disruption.png,1100
+밀수,event_smuggling,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Smuggling,$market에서 밀수 활동이 급증하고 있습니다. - 안정도 $smugglingPenalty 감소,graphics/icons/markets/smuggling.png,1000
+현상금,event_bounty,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.SystemBounty,,graphics/icons/markets/bounty.png,1000
+불량 AI 코어,rogue_ai_core,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RogueAICore,$market 인근에 불량 AI 코어가 작동하고 있습니다. 그 장기적 계획과 야망은 불분명합니다.,graphics/icons/markets/rogue_ai.png,1200
+AI 코어 관리자 (숨김),ai_core_admin,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AICoreAdmin,코어가 제거 불가 상태가 되는 시점을 추적하는 숨김 조건입니다. 아이콘 불필요.,graphics/icons/markets/rogue_ai.png,1000
+해적 활동,pirate_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.PirateActivity,이 시스템에서 해적들이 화물선과 식민지를 표적으로 삼는 징후가 포착되고 있습니다.,graphics/icons/markets/pirate_activity.png,1300
+적대 활동,hostile_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.events.HostileActivity,,graphics/icons/markets/pirate_activity.png,1350
+해적 소강,piracy_respite,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.PiracyRespite,이 식민지는 섹터에서 흔한 해적 약탈의 소강 상태를 경험하고 있습니다.,graphics/icons/markets/respite40.png,1375
+정립된 정치체,established_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.EstablishedPolity,,graphics/icons/markets/established_polity.png,1380
+봉쇄됨,blockaded,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Blockaded,이 식민지가 위치한 시스템이 봉쇄를 받고 있어 정기 무역 항로가 피해를 입고 있습니다.,graphics/icons/markets/blockade.png,1385
+러드 경로 세포,pather_cells,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathCells,,graphics/icons/markets/pather_cells.png,1400
+,,,,,,,,
+# stand-alone conditions,,,,,,,,
+무역 혼란,shipping_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.ShippingDisruption,,graphics/icons/markets/trade_disruption.png,1000
+,,,,,,,,
+# misc,,,,,,,,
+통신 중계기 (숨김),comm_relay,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.CommRelayCondition,"숨김 조건으로, 아이콘이 필요하지 않습니다.",,
+,,,,,,,,
+,,,,,,,,
+# procgen conditions,,,,,,,,
+거주 가능,habitable,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.Habitable,$market의 표면 조건에 인간이 무방호 상태로 생존할 수 있습니다.,graphics/icons/markets/habitable.png,21
+,,,,,,,,
+,,,,,,,,
+산재한 폐허,ruins_scattered,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,이 세계는 붕괴 이전 도메인 개발이 거의 이루어지지 않았습니다. 단편적인 유물만 남아 있습니다.,graphics/icons/markets/ruins_scattered.png,100
+광범위한 폐허,ruins_widespread,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"광범위한 폐허, 방사선 블립, 발포 세라믹의 특유한 레이더 핑이 곳곳에서 감지됩니다.",graphics/icons/markets/ruins_widespread.png,100
+대규모 폐허,ruins_extensive,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,부서진 도심에서 흘러넘친 폐허 도시들이 $market 표면 곳곳에서 발견됩니다.,graphics/icons/markets/ruins_extensive.png,100
+광대한 폐허,ruins_vast,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market은 광대한 폐허로 뒤덮여 있습니다. 죽은 자들이 넘쳐납니다.,graphics/icons/markets/ruins_vast.png,100
+,,,,,,,,
+,,,,,,,,
+한랭,cold,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market의 낮은 기온은 정상 작업에 특수 장비를 필요로 합니다.,graphics/icons/markets/cold.png,25
+극한 한랭,very_cold,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market에서 안전한 작업을 위해 극한 추위용 특수 장비와 절차가 필요합니다.,graphics/icons/markets/cold_extreme.png,25
+,,,,,,,,
+고온,hot,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market의 고온 환경은 정상 작업에 특수 장비를 필요로 합니다.,graphics/icons/markets/hot.png,25
+극한 고온,very_hot,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market에서 안전한 작업을 위해 극한 열용 특수 장비와 절차가 필요합니다.,graphics/icons/markets/hot_extreme.png,25
+,,,,,,,,
+,,,,,,,,
+지각 활동,tectonic_activity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market의 표면은 불안정하여 격렬한 지진이 잦습니다. 모든 구조물에 특수 보강이 필요합니다.,graphics/icons/markets/tectonic.png,26
+극한 지각 활동,extreme_tectonic_activity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market의 지각은 극심한 지진과 대규모 화산 활동으로 혼돈 상태입니다.,graphics/icons/markets/tectonic_extreme.png,26
+,,,,,,,,
+,,,,,,,,
+대기 없음,no_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market에는 감지 가능한 대기가 없습니다. 표면이 우주의 혹독한 환경에 노출됩니다.,graphics/icons/markets/atmosphere_none.png,27
+희박한 대기,thin_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,희박한 대기가 $market 표면에 간신히 존재합니다.,graphics/icons/markets/atmosphere_thin.png,27
+독성 대기,toxic_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market의 대기는 극도로 독성이 강하고 부식성이 있어 노출된 표면을 마모시킵니다.,graphics/icons/markets/atmosphere_toxic.png,27
+밀집 대기,dense_atmosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$Market의 표면은 두꺼운 대기로 뒤덮여 있습니다.,graphics/icons/markets/atmosphere_dense.png,27
+,,,,,,,,
+,,,,,,,,
+온화한 기후,mild_climate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.MildClimate,$Market의 기후는 온화하고 온순합니다. 매일 아침 가벼운 안개가 일출을 맞이합니다.,graphics/icons/markets/climate_mild.png,28
+극한 날씨,extreme_weather,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"$market의 하늘을 휩쓰며 번개를 수반한 맹렬한 폭풍이 몰아친다. 궤도에서는 숭고한 아름다움이지만, 이는 험악한 지표면 조건을 만들어 수송과 거주를 극히 불편하게 한다.",graphics/icons/markets/weather_extreme.png,28
+,,,,,,,,
+저중력,low_gravity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LowGravity,"$market의 지표면 중력은 특이할 정도로 낮지만 무중력보다는 훨씬 높다. 마찰력, 무게, 압력 역학의 변화된 조건에 대응하기 위해 필요한 비표준 절차로 인해 (상대적으로) 무거운 기계류의 작업과 운영이 복잡해진다.",graphics/icons/markets/gravity_low.png,24
+고중력,high_gravity,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.HighGravity,"$market의 지표면 중력은 압도적으로 높다. 인류는 일상적인 이동을 위해 동력 외골격을 필요로 하며 기본적인 동작도 피로하다고 느낀다. 지속적인 거주는 기껏해야 힘겹다. 모든 작업은 낙상과 구조적 붕괴의 위험이 높아진 상태에서 진행되며, 충분한 신중함으로 특화된 공학을 수행하지 않으면 더욱 그렇다.",graphics/icons/markets/gravity_high.png,24
+,,,,,,,,
+방사능 오염,irradiated,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$market의 지표면은 방사능으로 황폐화되어 있다. 모든 생명체는 여기서 오래 살기 위해 보호된 서식지에 갇혀 있어야 한다. 경화되지 않은 회로와 나노스케일 재료 또는 기계류도 이 혹독한 조건에서 빠르게 고장난다.,graphics/icons/markets/irradiated.png,29
+,,,,,,,,
+,,,,,,,,
+적대적 생물권,inimical_biosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LCAttractorLow,"$market의 생물권은 보호되지 않은 인간에게 치명적이다. 이 조건들이 생물학자들에게는 흥미롭지만, 지표면 기술자들은 일상적인 작업을 수행할 때 엄격한 격리 프로토콜로 인해 방해를 받는다.",graphics/icons/markets/inimical_biosphere.png,30
+,,,,,,,,
+수역 표면,water_surface,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,착륙하거나 걷거나 건설할 실질적인 고체 표면이 없는 해양 행성이다. 전문 훈련과 장비가 필요함으로 인해 작업이 복잡해진다.,graphics/icons/markets/water_covered.png,31
+,,,,,,,,
+약한 빛,poor_light,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,$market의 항성이 제공하는 빛은 이 세계에만 미약한 조명과 에너지를 제공한다.,graphics/icons/markets/poor_light.png,32
+암흑,dark,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"$market의 지표면은 어둡고 그림자가 가득하며, 항성으로부터 사실상 조명을 받지 못한다.",graphics/icons/markets/darkness.png,32
+,,,,,,,,
+운석 충돌,meteor_impacts,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,이 행성은 규칙적인 유성우로 인해 끔찍한 비율로 지속적으로 폭격당한다. 아무리 임시일지라도 모든 인간 주민은 하늘을 조심스럽게 감시해야 한다. 모든 영구 시설은 깊게 묻고 잘 요새화되는 것이 최선이다.,graphics/icons/markets/meteor_impacts.png,33
+,,,,,,,,
+,,,,,,,,
+오염,pollution,,,,com.fs.starfarer.api.impl.campaign.econ.Pollution,"인류 산업은 이 세계를 다이옥신, 황 화합물, 회분, 붕괴하는 방사성 먼지의 지속적인 틱으로 채웠다. 플라스틱 조각들이 거품 금속 파편에 들러붙고, 하늘은 죽은 채널로 맞춰진다.",graphics/icons/markets/pollution.png,110
+,,,,,,,,
+,,,,,,,,
+희박한 광석,ore_sparse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,학문적 흥미만 있고 채굴 경제성이 거의 없는 희박한 광석입니다.,graphics/icons/markets/ore_sparse.png,50
+적정 광석,ore_moderate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,적절한 경제 조건에서 수익성 있게 개발할 수 있는 광석입니다.,graphics/icons/markets/ore_moderate.png,50
+풍부한 광석,ore_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,광범위하고 수익성 있게 채굴할 수 있는 풍부한 광석입니다.,graphics/icons/markets/ore_abundant.png,50
+광대한 광석,ore_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"암석층에 광물이 조밀하게 형성되어 있어, 야심찬 산업가라면 막대한 이윤을 창출할 수 있습니다.",graphics/icons/markets/ore_rich.png,50
+초풍부 광석,ore_ultrarich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,도메인 시대의 거대 채광 기업들도 꿈꾸지 못한 광물 자산입니다.,graphics/icons/markets/ore_ultrarich.png,50
+,,,,,,,,
+,,,,,,,,
+희박한 희귀 광석,rare_ore_sparse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,학문적 흥미만 있고 채굴 경제성이 거의 없는 희박한 초중금속입니다.,graphics/icons/markets/rareore_sparse.png,60
+적정 희귀 광석,rare_ore_moderate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,지속적인 산업 투자로 수익성 있게 채굴할 수 있는 초중금속입니다.,graphics/icons/markets/rareore_moderate.png,60
+풍부한 희귀 광석,rare_ore_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,야심찬 군벌이나 재벌의 야욕을 충족시킬 초중금속이 암석층에 풍부하게 존재합니다.,graphics/icons/markets/rareore_abundant.png,60
+광대한 희귀 광석,rare_ore_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,암석층에 펼쳐진 초중금속이 강력한 전함 함대 건조와 거대한 부의 축적을 약속합니다.,graphics/icons/markets/rareore_rich.png,60
+초풍부 희귀 광석,rare_ore_ultrarich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,센서 그리드에 비친 초중금속의 믿기지 않을 정도의 밀도는 세계를 불태울 강함 함대를 건조하거나 도메인 시대의 찬란한 수정 탑 도시처럼 영광스러운 미래를 약속합니다.,graphics/icons/markets/rareore_ultrarich.png,60
+,,,,,,,,
+,,,,,,,,
+극소량 휘발성 물질,volatiles_trace,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,이곳의 휘발성 물질은 채굴할 가치가 거의 없습니다.,graphics/icons/markets/volatiles_trace.png,40
+산재된 휘발성 물질,volatiles_diffuse,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"산재된 휘발성 물질을 찾을 수 있으며, 산업 채굴에 충분합니다.",graphics/icons/markets/volatiles_diffuse.png,40
+풍부한 휘발성 물질,volatiles_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,풍부한 휘발성 물질을 $market에서 경제적으로 채굴할 수 있습니다.,graphics/icons/markets/volatiles_abundant.png,40
+대량의 휘발성 물질,volatiles_plentiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$market은 휘발성 물질의 거대한 광맥입니다 - 풍부하고, 깊고, 강력합니다.",graphics/icons/markets/volatiles_plentiful.png,40
+,,,,,,,,
+,,,,,,,,
+극소량 유기물,organics_trace,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$market은 유기물 매장량이 거의 없지만, 일부 채굴은 가능합니다.",graphics/icons/markets/organics_trace.png,38
+일반 유기물,organics_common,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,경제적으로 채취 가능한 유기물 매장지를 $market에서 찾을 수 있습니다.,graphics/icons/markets/organics_common.png,38
+풍부한 유기물,organics_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$market의 지표 아래로 부의 강이 흐릅니다 - 그것을 찾아내고 활용할 자들을 위해.,graphics/icons/markets/organics_abundant.png,38
+대량의 유기물,organics_plentiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$market 표면에서 귀한 유기물 저장소가 분출하며, 깊고 어두운 웅덩이들 위로 나타납니다. 그 아래에는 부의 대양이 있을 것을 약속합니다.",graphics/icons/markets/organics_plentiful.png,38
+,,,,,,,,
+,,,,,,,,
+척박한 농지,farmland_poor,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,이곳에서 테란 식물은 왜소하고 지친 상태로만 자랍니다. 이 땅을 비옥하게 하려면 절망에 맞먹는 재능을 가진 농부들이 필요합니다.,graphics/icons/markets/farmland_poor.png,70
+적절한 농지,farmland_adequate,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,견고한 테란 호환 생물권이 $market에서 농업 경작을 가능하게 합니다.,graphics/icons/markets/farmland_adequate.png,70
+풍요로운 농지,farmland_rich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,$market의 비옥한 들판은 이 기름진 땅에서 일하는 농부들에게 풍성한 수확을 약속한다.,graphics/icons/markets/farmland_rich.png,70
+과실의 농지,farmland_bountiful,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"$market은 진정한 에덴이다; 꽃피고 무성하며 푸르고 생명력으로 빛나는 곳이다. 가지들은 과실의 무게로 늘어져 있고, 황금 곡식 밭은 초원 미풍 속에서 반짝인다.",graphics/icons/markets/farmland_bountiful.png,70
+,,,,,,,,
+궤도 태양 집열기,solar_array,"show_in_planet_list, planet_search",TRUE,,com.fs.starfarer.api.impl.campaign.econ.SolarArray,"이 행성은 궤도에 배치된 태양 차양 또는 거울로 이루어진 어레이를 갖고 있으며, 행성 표면 환경을 지구 기준에 가깝게 조절한다.",graphics/icons/markets/solar_shade.png,101

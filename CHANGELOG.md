@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.98a-RC8-kr-preview6
+
+- 설치/제거 BAT가 `python` 명령에만 의존하지 않도록 수정했습니다.
+- BAT 실행 시 Windows Python Launcher인 `py -3`을 먼저 사용하고, 없을 때만 실제 Python 3 `python` 명령을 검증해서 사용합니다.
+- `python --version`이 버전 없이 `Python`만 출력되는 Windows Store alias/PATH 문제 환경에서도 설치가 막히지 않도록 했습니다.
+
 ## 0.98a-RC8-kr-preview5
 
 - 캠페인 대화에서 특정 문구가 수십~수백 번 반복 출력되던 문제를 수정했습니다.

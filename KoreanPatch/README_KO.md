@@ -10,7 +10,7 @@
 2. `KoreanPatch/install_korean_patch.bat`을 실행합니다.
 3. 게임을 실행합니다. 설치 스크립트가 `enabled_mods.json`에 `KoreanPatch`를 자동 추가합니다.
 
-Python 3이 필요합니다. 설치 전에 명령 프롬프트에서 `python --version`이 동작하는지 확인하세요.
+Python 3이 필요합니다. 설치 BAT는 Windows Python Launcher인 `py -3`을 먼저 사용하고, 없을 때만 실제 Python 3 `python` 명령을 확인합니다. `python --version`이 버전 없이 `Python`만 출력되는 환경에서도 `py` 런처가 있으면 그대로 실행됩니다.
 
 ## 왜 설치 스크립트가 필요한가
 

@@ -16,7 +16,7 @@ Starsector/
 
 ## Install
 
-1. Install Python 3 if `python --version` does not work in Command Prompt or PowerShell.
+1. Install Python 3. The BAT installer now tries the Windows `py -3` launcher first, then falls back to a validated `python` command.
 2. Run `mods/KoreanPatch/install_korean_patch.bat`.
 3. Start Starsector.
 
@@ -36,5 +36,6 @@ This restores the backed-up core JAR/font/tips files. It does not delete the mod
 
 - This repository does not include Starsector game JAR files.
 - The installer applies patch data against the user's installed copy of Starsector.
+- If `python --version` only prints `Python` without a version, the installer should still work through `py -3` when the Python launcher is installed.
 - If the game version changes, the installer attempts to sync `mod_info.json` to the detected installed game version.
 - Newly added English text from future Starsector updates will still require translation work.
